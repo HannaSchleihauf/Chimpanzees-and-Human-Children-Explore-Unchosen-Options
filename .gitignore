@@ -1,0 +1,10 @@
+*.Rproj.user
+*.mp4
+*.Rhistory
+*.Rdata
+*.httr-oauth
+*.DS_Store
+.Rproj.user
+
+/Video_S1.mp4
+/Video_S2.mp4

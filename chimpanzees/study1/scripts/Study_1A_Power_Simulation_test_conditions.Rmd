@@ -1,0 +1,424 @@
+---
+title: "Study 1A (chimpanzees) - Power simulation: test conditions only"
+date: "3/30/2021"
+---
+
+<!--
+Purpose:  A priori, simulation-based power analysis for Study 1A, including
+          only the two test conditions (choice, no-choice).
+Design:   16 chimpanzees, 18 trials per condition (within-subject).
+Output:   ../R_objects/counterfactual_power_sim_test_conditions.RData
+Run from: This scripts/ folder (paths are relative to it).
+-->
+
+# 1. Setup
+
+```{r setup, include=FALSE}
+
+library(tidyverse)
+library(lme4)
+library(kyotil)      # keepWarnings(): stores convergence warnings
+library(data.table)  # Efficient data manipulation
+
+# Clear the environment
+rm(list = ls(all.names = TRUE))
+```
+
+# 2. Simulated design
+
+```{r design, include = FALSE}
+
+# Set seed for reproducibility
+set.seed(1)
+
+# Simulation parameters
+n.subject <- 16          # Number of subjects
+n.per.subject <- 36      # Observations per subject
+n.condition <- 2         # Number of conditions
+n.per.condition <- 18    # Observations per subject and condition
+min.age <- 4             # Minimum age
+max.age <- 30            # Maximum age
+
+# Subject IDs
+subj.id <- factor(paste0("subj.", 1:n.subject))
+
+# Expected proportion of peeks per condition and reward received (hypotheses)
+performance_levels <- list(
+  no.choice = list(high = 0.05, low = 0.10, none = 0.15),
+  choice = list(high = 0.25, low = 0.35, none = 0.45)
+)
+
+# Balanced design: every subject x condition x trial
+start.data <- expand.grid(
+  subj.id = subj.id,
+  condition = c(".no.choice", ".choice"),
+  trial.per.condition = 1:n.per.condition
+)
+
+# Order by subject, condition and trial
+start.data <- start.data[order(start.data$subj.id, start.data$condition, start.data$trial.per.condition), ]
+
+# Rewards in the left and right box (fixed sequence of 18 trials)
+value_left_sequence <- rep(c(
+  ".high", ".high", ".high", ".low", ".low", ".none",
+  ".high", ".low", ".none", ".low", ".none", ".none",
+  ".high", ".low", ".high", ".none", ".low", ".none"
+), times = 2 * n.subject)
+value_right_sequence <- rep(c(
+  ".high", ".low", ".none", ".low", ".none", ".none",
+  ".high", ".high", ".high", ".low", ".low", ".none",
+  ".low", ".high", ".none", ".high", ".none", ".low"
+), times = 2 * n.subject)
+
+start.data$value.left <- value_left_sequence
+start.data$value.right <- value_right_sequence
+
+# Sex (balanced across subjects)
+genders <- rep(c(".male", ".female", ".male", ".female"), each = n.subject / 4)
+start.data$gender <- factor(genders[as.numeric(start.data$subj.id)],
+                            levels = c(".male", ".female"))
+
+# Age (random, one per subject)
+ages <- runif(n = n.subject, min = min.age, max = max.age)
+start.data$age <- ages[as.numeric(start.data$subj.id)]
+
+# Optional: check that the design is balanced
+# print(ftable(condition ~ gender, start.data) / n.per.condition)
+# print(range(apply(start.data[, .(gender)], 1, function(x) sum(x > 0))))
+# print(range(apply(start.data[, .(age)], 1, function(x) sum(x > 0))))
+# print(range(apply(start.data[, .(condition)], 1, function(x) sum(x > 0))))
+# print(range(apply(start.data[, .(trial.per.condition)], 1, function(x) sum(x > 0))))
+
+# Convert to data.table for efficiency
+start.data <- as.data.table(start.data)
+
+# z-transform covariates
+start.data[, z.age := scale(age)]
+start.data[, z.trial.per.condition := scale(as.numeric(trial.per.condition))]
+
+# Dummy-code and center condition (needed for the random slopes)
+start.data$condition.choice <-
+  as.numeric(start.data$condition == levels(start.data$condition)[2])
+start.data$condition.choice.c <-
+  as.numeric(start.data$condition.choice) -
+  mean(as.numeric(start.data$condition.choice)) # Centering
+
+# Dummy-code and center sex, so that the estimates do not depend on the
+# reference category
+start.data$gender.male <-
+  as.numeric(start.data$gender == levels(start.data$gender)[2])
+start.data$gender.male.c <-
+  start.data$gender.male - mean(start.data$gender.male)
+```
+
+# 3. Fixed effects implied by the hypotheses
+
+```{r fixed-effects, include = FALSE}
+
+# Intercept: no-choice condition, high-value reward (logit scale)
+intercept <- qlogis(performance_levels$no.choice$high)
+
+# Main effects
+s.condition.choice <- qlogis(performance_levels$choice$high) - qlogis(performance_levels$no.choice$high)
+s.value.low <- qlogis(performance_levels$no.choice$low) - qlogis(performance_levels$no.choice$high)
+s.value.none <- qlogis(performance_levels$no.choice$none) - qlogis(performance_levels$no.choice$high)
+
+# Interactions
+s.condition.choice.value.low <- qlogis(performance_levels$choice$low) -
+  (qlogis(performance_levels$no.choice$low) - qlogis(performance_levels$no.choice$high)) -
+  (qlogis(performance_levels$choice$high) - qlogis(performance_levels$no.choice$high)) -
+  intercept
+
+s.condition.choice.value.none <- qlogis(performance_levels$choice$none) -
+  (qlogis(performance_levels$no.choice$none) - qlogis(performance_levels$no.choice$high)) -
+  (qlogis(performance_levels$choice$high) - qlogis(performance_levels$no.choice$high)) -
+  intercept
+
+# No effects expected for the following predictors
+s.trial.per.condition <- 0
+s.gender.male <- 0
+s.age <- 0
+
+# Optional: check that the coefficients reproduce the expected proportions
+# print(plogis(s.condition.choice.value.low + s.value.low + s.condition.choice + intercept)) # should be ~0.35
+# print(plogis(s.condition.choice.value.none + s.value.none + s.condition.choice + intercept)) # should be ~0.45
+```
+
+# 4. Random effects
+
+```{r random-effects, include = FALSE}
+
+n.simus <- 40 # Number of simulations: small for testing (10), large for the actual run (500-1000)
+
+# Random effects are set as fractions of the corresponding fixed effects:
+# tiny = 1/8, moderate = 1/4 (strong = 1/2 and extreme = 1 are commented out)
+
+# Random intercept
+tiny.re <- abs(intercept / 8)
+# moderate.re <- abs(intercept / 4)
+# strong.re <- abs(intercept / 2)
+# extrem.re <- abs(intercept * 1)
+r.effects <- c(tiny.re)
+
+# Random slopes: condition.choice
+tiny.rs.choice <- abs(s.condition.choice / 8)
+moderate.rs.choice <- abs(s.condition.choice / 4)
+# strong.rs.choice <- abs(s.condition.choice / 2)
+# extrem.rs.choice <- abs(s.condition.choice * 1)
+r.slope.condition.choice <- c(tiny.rs.choice, moderate.rs.choice)
+
+# Random slopes: value.low
+tiny.rs.v.l <- abs(s.value.low / 8)
+moderate.rs.v.l <- abs(s.value.low / 4)
+# strong.rs.v.l <- abs(s.value.low / 2)
+# extrem.rs.v.l <- abs(s.value.low * 1)
+r.slope.value.low <- c(tiny.rs.v.l, moderate.rs.v.l)
+
+# Random slopes: value.none
+tiny.rs.v.n <- abs(s.value.none / 8)
+moderate.rs.v.n <- abs(s.value.none / 4)
+# strong.rs.v.n <- abs(s.value.none / 2)
+# extrem.rs.v.n <- abs(s.value.none * 1)
+r.slope.value.none <- c(tiny.rs.v.n, moderate.rs.v.n)
+
+# Random slopes: condition.choice x value.low
+tiny.rs.choice.value.low <- abs(s.condition.choice.value.low / 8)
+moderate.rs.choice.value.low <- abs(s.condition.choice.value.low / 4)
+# strong.rs.choice.value.low <- abs(s.condition.choice.value.low / 2)
+# extrem.rs.choice.value.low <- abs(s.condition.choice.value.low * 1)
+r.slope.choice.value.low <- c(tiny.rs.choice.value.low, moderate.rs.choice.value.low)
+
+# Random slopes: condition.choice x value.none
+tiny.rs.choice.value.none <- abs(s.condition.choice.value.none / 8)
+moderate.rs.choice.value.none <- abs(s.condition.choice.value.none / 4)
+# strong.rs.choice.value.none <- abs(s.condition.choice.value.none / 2)
+# extrem.rs.choice.value.none <- abs(s.condition.choice.value.none * 1)
+r.slope.choice.value.none <- c(tiny.rs.choice.value.none, moderate.rs.choice.value.none)
+
+# Random slope: trial (none)
+r.slope.trial.per.condition <- 0
+```
+
+# 5. Results table
+
+```{r results-table, echo = FALSE}
+# One row per simulation and combination of random-effect sizes
+all.res <-
+  data.frame(expand.grid(
+    n.per.subject = n.per.subject, r.effect = r.effects,
+    r.slope.condition.choice = r.slope.condition.choice,
+    r.slope.value.low = r.slope.value.low,
+    r.slope.value.none = r.slope.value.none,
+    r.slope.choice.value.low = r.slope.choice.value.low,
+    r.slope.choice.value.none = r.slope.choice.value.none, simu = 1:n.simus
+  ))
+
+# Columns for the estimates
+all.res$icpt <- NA
+all.res$value.low <- NA
+all.res$value.none <- NA
+all.res$condition.choice <- NA
+# Columns for the random-intercept SD and the warnings of the full and null model
+all.res$re.sd <- NA
+all.res$warns.full <- NA
+all.res$warns.null <- NA
+# Columns for the likelihood-ratio test results (p-values)
+all.res$full.null.p <- NA
+all.res$lrt.p.condition <- NA
+all.res$lrt.p.value <- NA
+all.res$lrt.p.gender.male.c <- NA
+all.res$lrt.p.z.age <- NA
+all.res$lrt.p.z.trial.per.condition <- NA
+all.res$lrt.p.condition.value <- NA
+
+# Fixed-effect coefficients used to simulate the data
+coefs <- c(
+  "(Intercept)" = intercept,
+  "condition.choice" = s.condition.choice,
+  "value.low" = s.value.low,
+  "value.none" = s.value.none,
+  "gender.male.c" = s.gender.male,
+  "z.age" = s.age,
+  "z.trial.per.condition" = s.trial.per.condition,
+  "condition.choice:value.low" = s.condition.choice.value.low,
+  "condition.choice:value.none" = s.condition.choice.value.none
+)
+```
+
+# 6. Simulation
+
+```{r simulation, include = FALSE}
+xdata <- start.data
+
+# Optimizer settings that make convergence more likely
+contr <- glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 10000))
+
+# Run the simulation (for testing a single run, set i = 1)
+for (i in 1:nrow(all.res)) {
+
+  # Step 1: Simulate the data
+
+  # Reward received: chimpanzee pulls the left or right box at random
+  xdata$value <- NA
+
+  for (j in 1:nrow(xdata)) {
+    xdata$value[j] <-
+      sample(c(xdata$value.left[j], xdata$value.right[j]), 1, prob = c(0.5, 0.5))
+  }
+
+  # Dummy-code and center reward received
+  xdata$value <- as.factor(xdata$value)
+  xdata$value.low <-
+    as.numeric(xdata$value == levels(xdata$value)[2])
+  xdata$value.low.c <-
+    as.numeric(xdata$value.low) -
+    mean(as.numeric(xdata$value.low)) # Centering
+  xdata$value.none <-
+    as.numeric(xdata$value == levels(xdata$value)[3])
+  xdata$value.none.c <-
+    as.numeric(xdata$value.none) -
+    mean(as.numeric(xdata$value.none)) # Centering
+
+  # Dummy-code and center the condition x reward received interaction
+  xdata$condition.choice.value.low <-
+    ifelse((xdata$condition == ".choice" & xdata$value == ".low"), 1, 0)
+  xdata$condition.choice.value.low.c <-
+    as.numeric(xdata$condition.choice.value.low) -
+    mean(as.numeric(xdata$condition.choice.value.low)) # Centering
+  xdata$condition.choice.value.none <-
+    ifelse((xdata$condition == ".choice" & xdata$value == ".none"), 1, 0)
+  xdata$condition.choice.value.none.c <-
+    as.numeric(xdata$condition.choice.value.none) -
+    mean(as.numeric(xdata$condition.choice.value.none)) # Centering
+
+  # Model matrix
+  m.mat <- model.matrix(object = ~ condition * value + gender.male.c + z.age +
+                          z.trial.per.condition, data = xdata)
+  names(coefs)
+  colnames(m.mat)
+  # Linear predictor (fixed effects)
+  LP <- m.mat[, names(coefs)] %*% coefs
+
+  set.seed(i + 3) # Allows replicating individual simulations
+
+  # Add random intercepts and slopes to the linear predictor
+  LP <- LP + rnorm(n = n.subject, sd = all.res[i, "r.effect"])[as.numeric(xdata$subj.id)] +
+    rnorm(n = n.subject, sd = all.res[i, "r.slope.condition.choice"])[as.numeric(xdata$subj.id)] * xdata$condition.choice +
+    rnorm(n = n.subject, sd = all.res[i, "r.slope.value.low"])[as.numeric(xdata$subj.id)] * xdata$value.low +
+    rnorm(n = n.subject, sd = all.res[i, "r.slope.value.none"])[as.numeric(xdata$subj.id)] * xdata$value.none +
+    rnorm(n = n.subject, sd = all.res[i, "r.slope.choice.value.low"])[as.numeric(xdata$subj.id)] * xdata$condition.choice.value.low +
+    rnorm(n = n.subject, sd = all.res[i, "r.slope.choice.value.none"])[as.numeric(xdata$subj.id)] * xdata$condition.choice.value.none
+
+  # Simulate the response (peeked yes/no)
+  xdata$searching <- rbinom(n = nrow(xdata), size = 1, prob = exp(LP) / (1 + exp(LP)))
+  ftable(searching ~ condition + value, xdata)
+
+  # Step 2: Fit the models
+  # Only the fixed effects of interest are included (control predictors are
+  # commented out)
+
+  # Full model
+  full <- keepWarnings(glmer(searching ~
+  (condition + value)^2 + # gender.male.c + z.age + z.trial.per.condition +
+    (1 + ((condition.choice.c) * (value.low.c + value.none.c)) + z.trial.per.condition || subj.id),
+  data = xdata, family = binomial, control = contr
+  ))
+
+  # Null model
+  null <- keepWarnings(glmer(searching ~
+  1 +
+    (1 + ((condition.choice.c) * (value.low.c + value.none.c)) + z.trial.per.condition || subj.id),
+  data = xdata, family = binomial, control = contr
+  ))
+
+  # Reduced model (main effects only)
+  red1 <- keepWarnings(glmer(searching ~
+  (condition + value) + # gender.male.c + z.age + z.trial.per.condition +
+     (1 + ((condition.choice.c) * (value.low.c + value.none.c)) + z.trial.per.condition || subj.id),
+  data = xdata, family = binomial, control = contr
+  ))
+
+  # Step 3: Store the results
+  all.res[i, c(
+    "icpt", "condition.choice", "value.low", "value.none",
+    "condition.choice:value.low",
+    "condition.choice:value.none"
+  )] <- fixef(full$value)
+
+  all.res[i, "re.sd"] <- as.data.frame(summary(full$value)$varcor)[1, "sdcor"]
+  all.res[i, "warns.full"] <- nchar(paste(full$warnings, collapse = ""))
+  all.res[i, "warns.null"] <- nchar(paste(null$warnings, collapse = ""))
+  # Full-null model comparison
+  all.res[i, "full.null.p"] <-
+    as.data.frame(anova(null$value, full$value, test = "Chisq"))[2, "Pr(>Chisq)"]
+
+  # Likelihood-ratio test of the interaction (full model)
+  xx <- drop1(full$value, test = "Chisq")
+  all.res[i, "lrt.p.condition.value"] <- as.data.frame(xx)["condition:value", "Pr(Chi)"]
+
+  # Likelihood-ratio tests of the main effects (reduced model)
+  xx <- drop1(red1$value, test = "Chisq")
+  all.res[i, "lrt.p.condition"] <- as.data.frame(xx)["condition", "Pr(Chi)"]
+  all.res[i, "lrt.p.value"] <- as.data.frame(xx)["value", "Pr(Chi)"]
+
+  print(i)
+}
+
+save.image("../R_objects/counterfactual_power_sim_test_conditions.RData")
+load("../R_objects/counterfactual_power_sim_test_conditions.RData")
+```
+
+# 7. Evaluation
+
+## 7.1 Convergence warnings
+
+```{r warnings, echo = FALSE}
+all.res1 <- all.res
+# Full model: number of simulations with warnings per combination of random effects
+tapply(
+  X = all.res1[, "warns.full"] > 0, INDEX = all.res1[, c("r.slope.condition.choice", "r.slope.value.low", "r.slope.value.none", "r.slope.choice.value.low", "r.slope.choice.value.none")],
+  FUN = sum
+)
+sum(all.res1[, "warns.full"] > 0)
+# Null model
+tapply(
+  X = all.res1[, "warns.null"] > 0, INDEX = all.res1[, c("r.effect")],
+  FUN = sum
+)
+```
+
+## 7.2 Power
+
+Only models that converged without warnings are evaluated. Power is the proportion of simulations with a significant test (p ≤ .05).
+
+```{r power, include=FALSE}
+all.res2 <- subset(all.res1, warns.full == 0 & warns.null == 0)
+
+# Power per combination of random-effect sizes
+lrt.data1 <- all.res2 %>%
+  group_by(r.slope.condition.choice,
+  r.slope.value.low, r.slope.value.none, r.slope.choice.value.low, r.slope.choice.value.none) %>%
+  summarise(
+    n.lrt = n.simus,
+    full.null.p.mean = mean(full.null.p),
+    n.sign.full.null.p = length(full.null.p[full.null.p <= 0.051]),
+    n.full.null = length(full.null.p),
+    lrt.p.condition.value = mean(lrt.p.condition.value),
+    n.sign.lrt.condition.value = sum(lrt.p.condition.value <= 0.051),
+    pwr.condition.value = mean(lrt.p.condition.value <= 0.051),
+    lrt.p.condition = mean(lrt.p.condition),
+    n.sign.lrt.condition = sum(lrt.p.condition <= 0.051),
+    pwr.condition = mean(lrt.p.condition <= 0.051),
+    lrt.p.value = mean(lrt.p.value),
+    n.sign.lrt.value = sum(lrt.p.value <= 0.051),
+    pwr.value = mean(lrt.p.value <= 0.051)
+  )
+lrt.data1
+
+# Mean power across all combinations of random-effect sizes
+mean(lrt.data1$pwr.condition)
+mean(lrt.data1$pwr.value)
+mean(lrt.data1$pwr.condition.value)
+
+lrt.data1.sub <- subset(lrt.data1, lrt.data1$r.effect == lrt.data1$r.effect[1])
+```

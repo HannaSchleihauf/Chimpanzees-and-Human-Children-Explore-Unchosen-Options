@@ -1,0 +1,1009 @@
+condition;age.group;gender;trial;id;age;ethnic.info;education.parent1;education.parent2;family.income;condition.trial;trial.total;left;right;side.chosen;reward.received;reward.remaining;searched;searched.reli;trying.to.get.remaining;seconds.until.searched.reli;seconds.until.searched;value.remaining.seen;emotions.after.seeing.remaining
+choice;2;female;1;64;2.05;White;Bachelor's Degree;NA;More than $200,000;Fam_1;1;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;2;female;2;64;2.05;White;Bachelor's Degree;NA;More than $200,000;Fam_2;2;high;none;left;high;none;no;no;no;NA;NA;NA;NA
+choice;2;female;3;64;2.05;White;Bachelor's Degree;NA;More than $200,000;Fam_2;3;none;low;right;low;none;no;no;no;NA;NA;NA;NA
+choice;2;female;1;64;2.05;White;Bachelor's Degree;NA;More than $200,000;choice;4;high;low;left;high;low;yes;yes;no;8;8;worse;neutral
+choice;2;female;2;64;2.05;White;Bachelor's Degree;NA;More than $200,000;choice;5;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+choice;2;female;3;64;2.05;White;Bachelor's Degree;NA;More than $200,000;choice;6;low;none;left;low;none;no;no;no;4;4;worse;neutral
+choice;2;female;4;64;2.05;White;Bachelor's Degree;NA;More than $200,000;choice;7;high;high;right;high;high;no;no;no;NA;NA;NA;NA
+choice;2;male;1;61;2.28;Hispanic or Latino;Some College;NA;$81,000 to $100,000;Fam_1;1;high;low;right;low;high;no;;no;;NA;NA;NA
+choice;2;male;2;61;2.28;Hispanic or Latino;Some College;NA;$81,000 to $100,000;Fam_2;2;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+choice;2;male;3;61;2.28;Hispanic or Latino;Some College;NA;$81,000 to $100,000;Fam_2;3;low;none;right;none;low;no;no;no;NA;NA;NA;NA
+choice;2;male;1;61;2.28;Hispanic or Latino;Some College;NA;$81,000 to $100,000;choice;4;none;low;left;none;low;no;no;no;NA;NA;NA;NA
+choice;2;male;2;61;2.28;Hispanic or Latino;Some College;NA;$81,000 to $100,000;choice;5;high;none;right;none;high;no;no;no;NA;NA;NA;NA
+choice;2;male;3;61;2.28;Hispanic or Latino;Some College;NA;$81,000 to $100,000;choice;6;low;high;left;low;high;no;no;no;NA;NA;NA;NA
+choice;2;male;4;61;2.28;Hispanic or Latino;Some College;NA;$81,000 to $100,000;choice;7;high;high;right;high;high;no;no;no;NA;NA;NA;NA
+choice;2;female;1;174;2.38;NA;NA;NA;NA;Fam_1;1;high;low;right;low;high;NA;;NA;;NA;NA;NA
+choice;2;female;2;174;2.38;NA;NA;NA;NA;Fam_2;2;none;high;right;high;none;no;no;NA;NA;NA;NA;NA
+choice;2;female;3;174;2.38;NA;NA;NA;NA;Fam_2;3;low;none;left;low;none;no;no;NA;NA;NA;NA;NA
+choice;2;female;1;174;2.38;NA;NA;NA;NA;choice;4;low;high;right;high;low;no;no;NA;NA;NA;NA;NA
+choice;2;female;2;174;2.38;NA;NA;NA;NA;choice;5;none;low;right;low;none;no;no;NA;NA;NA;NA;NA
+choice;2;female;3;174;2.38;NA;NA;NA;NA;choice;6;none;none;left;none;none;no;no;NA;NA;NA;NA;NA
+choice;2;female;4;174;2.38;NA;NA;NA;NA;choice;7;high;none;left;high;none;no;no;NA;NA;NA;NA;NA
+choice;2;female;1;194;2.52;Asian;Some Highschool;Doctorate;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+choice;2;female;2;194;2.52;Asian;Some Highschool;Doctorate;More than $200,000;Fam_2;2;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+choice;2;female;3;194;2.52;Asian;Some Highschool;Doctorate;More than $200,000;Fam_2;3;low;none;left;low;none;no;no;no;NA;NA;NA;NA
+choice;2;female;1;194;2.52;Asian;Some Highschool;Doctorate;More than $200,000;choice;4;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+choice;2;female;2;194;2.52;Asian;Some Highschool;Doctorate;More than $200,000;choice;5;none;none;right;none;none;no;no;no;NA;NA;NA;NA
+choice;2;female;3;194;2.52;Asian;Some Highschool;Doctorate;More than $200,000;choice;6;high;low;left;high;low;yes;yes;no;30;25;NA;NA
+choice;2;female;4;194;2.52;Asian;Some Highschool;Doctorate;More than $200,000;choice;7;low;none;left;low;none;no;no;no;NA;NA;NA;NA
+choice;2;female;1;210;2.52;White;Bachelor's Degree;Master's Degree;$141,000 to $160,000;Fam_1;1;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;2;female;2;210;2.52;White;Bachelor's Degree;Master's Degree;$141,000 to $160,000;Fam_2;2;high;none;left;high;none;no;no;no;NA;NA;NA;NA
+choice;2;female;3;210;2.52;White;Bachelor's Degree;Master's Degree;$141,000 to $160,001;Fam_2;3;none;low;right;low;none;no;no;no;NA;NA;NA;NA
+choice;2;female;1;210;2.52;White;Bachelor's Degree;Master's Degree;$141,000 to $160,002;choice;4;low;high;left;low;high;no;no;no;NA;NA;NA;NA
+choice;2;female;2;210;2.52;White;Bachelor's Degree;Master's Degree;$141,000 to $160,003;choice;5;none;low;left;none;low;no;no;yes;4;NA;NA;NA
+choice;2;female;3;210;2.52;White;Bachelor's Degree;Master's Degree;$141,000 to $160,004;choice;6;high;none;right;none;high;no;no;yes;7;NA;NA;NA
+choice;2;female;4;210;2.52;White;Bachelor's Degree;Master's Degree;$141,000 to $160,005;choice;7;low;low;right;low;low;no;no;no;NA;NA;NA;NA
+choice;2;male;1;63;2.76;Hispanic or Latino;Highschool Diploma;NA;$41,000 to $60,000;Fam_1;1;low;high;left;low;high;no;;no;;NA;NA;NA
+choice;2;male;2;63;2.76;Hispanic or Latino;Highschool Diploma;NA;$41,000 to $60,000;Fam_2;2;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+choice;2;male;3;63;2.76;Hispanic or Latino;Highschool Diploma;NA;$41,000 to $60,000;Fam_2;3;none;low;right;low;none;no;no;no;NA;NA;NA;NA
+choice;2;male;1;63;2.76;Hispanic or Latino;Highschool Diploma;NA;$41,000 to $60,000;choice;4;low;low;right;low;low;no;no;no;NA;NA;NA;NA
+choice;2;male;2;63;2.76;Hispanic or Latino;Highschool Diploma;NA;$41,000 to $60,000;choice;5;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+choice;2;male;3;63;2.76;Hispanic or Latino;Highschool Diploma;NA;$41,000 to $60,000;choice;6;low;high;right;high;low;no;no;no;NA;NA;NA;NA
+choice;2;male;4;63;2.76;Hispanic or Latino;Highschool Diploma;NA;$41,000 to $60,000;choice;7;none;low;right;low;none;no;no;no;NA;NA;NA;NA
+choice;2;male;1;80;2.82;Other;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+choice;2;male;2;80;2.82;Other;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_2;2;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+choice;2;male;3;80;2.82;Other;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_2;3;low;none;left;low;none;yes;yes;no;17;15;worse;neutral
+choice;2;male;1;80;2.82;Other;Bachelor's Degree;Bachelor's Degree;More than $200,000;choice;4;low;high;right;high;low;yes;yes;no;25;25;worse;neutral
+choice;2;male;2;80;2.82;Other;Bachelor's Degree;Bachelor's Degree;More than $200,000;choice;5;none;low;left;none;low;yes;yes;no;28;29;better;neutral
+choice;2;male;3;80;2.82;Other;Bachelor's Degree;Bachelor's Degree;More than $200,000;choice;6;none;none;right;none;none;no;no;no;NA;NA;NA;NA
+choice;2;male;4;80;2.82;Other;Bachelor's Degree;Bachelor's Degree;More than $200,000;choice;7;high;none;left;high;none;no;no;no;NA;NA;NA;NA
+choice;2;male;1;88;2.88;White;Master's Degree;Doctorate;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+choice;2;male;2;88;2.88;White;Master's Degree;Doctorate;More than $200,000;Fam_2;2;high;none;left;high;none;yes;yes;no;6;6;worse;neutral
+choice;2;male;3;88;2.88;White;Master's Degree;Doctorate;More than $200,000;Fam_2;3;none;low;left;none;low;no;no;no;NA;NA;NA;NA
+choice;2;male;1;88;2.88;White;Master's Degree;Doctorate;More than $200,000;choice;4;low;high;right;high;low;no;no;no;NA;NA;NA;NA
+choice;2;male;2;88;2.88;White;Master's Degree;Doctorate;More than $200,000;choice;5;none;low;left;none;low;yes;yes;no;3;4;better;neutral
+choice;2;male;3;88;2.88;White;Master's Degree;Doctorate;More than $200,000;choice;6;high;none;right;none;high;no;no;no;NA;NA;NA;NA
+choice;2;male;4;88;2.88;White;Master's Degree;Doctorate;More than $200,000;choice;7;low;low;left;low;low;no;no;no;NA;NA;NA;NA
+choice;2;female;1;69;2.9;Asian;Some Highschool;Master's Degree;$81,000 to $100,000;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;2;female;2;69;2.9;Asian;Some Highschool;Master's Degree;$81,000 to $100,000;Fam_2;2;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+choice;2;female;3;69;2.9;Asian;Some Highschool;Master's Degree;$81,000 to $100,000;Fam_2;3;low;none;right;none;low;yes;yes;yes;16;19;better;negative
+choice;2;female;1;69;2.9;Asian;Some Highschool;Master's Degree;$81,000 to $100,000;choice;4;none;high;left;none;high;no;no;no;NA;NA;NA;NA
+choice;2;female;2;69;2.9;Asian;Some Highschool;Master's Degree;$81,000 to $100,000;choice;5;none;none;left;none;none;no;no;no;NA;NA;NA;NA
+choice;2;female;3;69;2.9;Asian;Some Highschool;Master's Degree;$81,000 to $100,000;choice;6;high;low;right;low;high;no;no;no;NA;NA;NA;NA
+choice;2;female;4;69;2.9;Asian;Some Highschool;Master's Degree;$81,000 to $100,000;choice;7;low;none;right;none;low;no;no;no;NA;NA;NA;NA
+choice;2;female;1;68;2.93;Pacific Islander/White;Master's Degree;NA;More than $200,000;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;2;female;2;68;2.93;Pacific Islander/White;Master's Degree;NA;More than $200,000;Fam_2;2;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+choice;2;female;3;68;2.93;Pacific Islander/White;Master's Degree;NA;More than $200,000;Fam_2;3;low;none;left;low;none;no;no;no;NA;NA;NA;NA
+choice;2;female;1;68;2.93;Pacific Islander/White;Master's Degree;NA;More than $200,000;choice;4;none;low;right;low;none;no;no;no;NA;NA;NA;NA
+choice;2;female;2;68;2.93;Pacific Islander/White;Master's Degree;NA;More than $200,000;choice;5;high;none;left;high;none;no;no;no;NA;NA;NA;NA
+choice;2;female;3;68;2.93;Pacific Islander/White;Master's Degree;NA;More than $200,000;choice;6;none;none;right;none;none;no;no;no;NA;NA;NA;NA
+choice;2;female;4;68;2.93;Pacific Islander/White;Master's Degree;NA;More than $200,000;choice;7;high;none;right;none;high;no;no;no;NA;NA;NA;NA
+choice;2;male;1;141;2.97;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+choice;2;male;2;141;2.97;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_2;2;none;high;right;high;none;yes;;yes;;4;worse;NA
+choice;2;male;3;141;2.97;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;2;male;1;141;2.97;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;choice;4;none;high;left;none;high;no;;yes;;NA;NA;NA
+choice;2;male;2;141;2.97;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;choice;5;high;low;right;low;high;yes;;no;;4;better;neutral
+choice;2;male;3;141;2.97;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;choice;6;none;none;left;none;none;yes;;no;;6;same;negative
+choice;2;male;4;141;2.97;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;choice;7;low;low;right;low;low;yes;;no;;4;same;neutral
+choice;3;male;1;125;3.01;NA;NA;NA;NA;Fam_1;1;high;low;left;high;low;yes;;yes;;6;worse;neutral
+choice;3;male;2;125;3.01;NA;NA;NA;NA;Fam_2;2;none;high;right;high;none;yes;yes;no;3;3;worse;neutral
+choice;3;male;3;125;3.01;NA;NA;NA;NA;Fam_2;3;low;none;left;low;none;no;no;no;NA;NA;NA;NA
+choice;3;male;1;125;3.01;NA;NA;NA;NA;choice;4;low;high;left;low;high;yes;yes;no;30;25;better;neutral
+choice;3;male;2;125;3.01;NA;NA;NA;NA;choice;5;none;low;right;low;none;no;no;NA;NA;NA;NA;NA
+choice;3;male;3;125;3.01;NA;NA;NA;NA;choice;6;none;none;left;none;none;no;no;NA;NA;NA;NA;NA
+choice;3;male;4;125;3.01;NA;NA;NA;NA;choice;7;high;none;right;none;high;no;no;NA;NA;NA;NA;NA
+choice;3;female;1;81;3.01;Other;Doctorate;Doctorate;More than $200,000;Fam_1;1;high;low;right;low;high;no;;no;;NA;NA;NA
+choice;3;female;2;81;3.01;Other;Doctorate;Doctorate;More than $200,000;Fam_2;2;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+choice;3;female;3;81;3.01;Other;Doctorate;Doctorate;More than $200,000;Fam_2;3;low;none;left;low;none;no;no;no;NA;NA;NA;NA
+choice;3;female;1;81;3.01;Other;Doctorate;Doctorate;More than $200,000;choice;4;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+choice;3;female;2;81;3.01;Other;Doctorate;Doctorate;More than $200,000;choice;5;none;none;right;none;none;no;no;no;NA;NA;NA;NA
+choice;3;female;3;81;3.01;Other;Doctorate;Doctorate;More than $200,000;choice;6;high;low;left;high;low;no;no;no;NA;NA;NA;NA
+choice;3;female;4;81;3.01;Other;Doctorate;Doctorate;More than $200,000;choice;7;low;none;left;low;none;no;no;no;NA;NA;NA;NA
+choice;3;female;1;82;3.07;Asian;Some Highschool;Master's Degree;$181,000 to $200,000;Fam_1;1;low;high;left;low;high;no;;no;;NA;NA;NA
+choice;3;female;2;82;3.07;Asian;Some Highschool;Master's Degree;$181,000 to $200,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;3;female;3;82;3.07;Asian;Some Highschool;Master's Degree;$181,000 to $200,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;3;female;1;82;3.07;Asian;Some Highschool;Master's Degree;$181,000 to $200,000;choice;4;low;low;left;low;low;no;;no;;NA;NA;NA
+choice;3;female;2;82;3.07;Asian;Some Highschool;Master's Degree;$181,000 to $200,000;choice;5;high;none;right;none;high;no;;no;;NA;NA;NA
+choice;3;female;3;82;3.07;Asian;Some Highschool;Master's Degree;$181,000 to $200,000;choice;6;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;3;female;4;82;3.07;Asian;Some Highschool;Master's Degree;$181,000 to $200,000;choice;7;none;low;left;none;low;no;;no;;NA;NA;NA
+choice;3;female;1;94;3.42;White;Master's Degree;Master's Degree;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+choice;3;female;2;94;3.42;White;Master's Degree;Master's Degree;More than $200,000;Fam_2;2;high;none;left;high;none;NA;;no;;NA;NA;NA
+choice;3;female;3;94;3.42;White;Master's Degree;Master's Degree;More than $200,000;Fam_2;3;none;low;right;low;none;NA;;no;;NA;NA;NA
+choice;3;female;1;94;3.42;White;Master's Degree;Master's Degree;More than $200,000;choice;4;low;low;left;low;low;no;;no;;;NA;NA
+choice;3;female;2;94;3.42;White;Master's Degree;Master's Degree;More than $200,000;choice;5;high;none;right;none;high;yes;;no;;11;better;NA
+choice;3;female;3;94;3.42;White;Master's Degree;Master's Degree;More than $200,000;choice;6;low;high;left;low;high;no;;no;;NA;NA;NA
+choice;3;female;4;94;3.42;White;Master's Degree;Master's Degree;More than $200,000;choice;7;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;3;female;1;120;3.43;Asian;Master's Degree;NA;NA;Fam_1;1;high;low;right;low;high;no;;no;;NA;NA;NA
+choice;3;female;2;120;3.43;Asian;Master's Degree;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;3;female;3;120;3.43;Asian;Master's Degree;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;3;female;1;120;3.43;Asian;Master's Degree;NA;NA;choice;4;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;3;female;2;120;3.43;Asian;Master's Degree;NA;NA;choice;5;none;none;right;none;none;yes;;no;;29;same;neutral
+choice;3;female;3;120;3.43;Asian;Master's Degree;NA;NA;choice;6;high;low;right;low;high;no;;no;;NA;NA;NA
+choice;3;female;4;120;3.43;Asian;Master's Degree;NA;NA;choice;7;low;none;right;none;low;no;;no;;NA;NA;NA
+choice;2;male;1;70;3.45;White;Master's Degree;Bachelor's Degree;More than $200,000;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;2;male;2;70;3.45;White;Master's Degree;Bachelor's Degree;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;2;male;3;70;3.45;White;Master's Degree;Bachelor's Degree;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;2;male;1;70;3.45;White;Master's Degree;Bachelor's Degree;More than $200,000;choice;4;none;low;left;none;low;no;;no;;NA;NA;NA
+choice;2;male;2;70;3.45;White;Master's Degree;Bachelor's Degree;More than $200,000;choice;5;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;2;male;3;70;3.45;White;Master's Degree;Bachelor's Degree;More than $200,000;choice;6;none;none;right;none;none;no;;no;;NA;NA;NA
+choice;2;male;4;70;3.45;White;Master's Degree;Bachelor's Degree;More than $200,000;choice;7;high;none;right;none;high;no;;no;;NA;NA;NA
+choice;3;female;1;116;3.49;White;Bachelor's Degree;Highschool Diploma;More than $200,000;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;3;female;2;116;3.49;White;Bachelor's Degree;Highschool Diploma;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;3;female;3;116;3.49;White;Bachelor's Degree;Highschool Diploma;More than $200,000;Fam_2;3;low;none;right;none;low;no;;no;;NA;NA;NA
+choice;3;female;1;116;3.49;White;Bachelor's Degree;Highschool Diploma;More than $200,000;choice;4;low;high;left;low;high;no;;no;;NA;NA;NA
+choice;3;female;2;116;3.49;White;Bachelor's Degree;Highschool Diploma;More than $200,000;choice;5;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;3;female;3;116;3.49;White;Bachelor's Degree;Highschool Diploma;More than $200,000;choice;6;none;none;right;none;none;no;;no;;NA;NA;NA
+choice;3;female;4;116;3.49;White;Bachelor's Degree;Highschool Diploma;More than $200,000;choice;7;high;none;right;none;high;no;;no;;NA;NA;NA
+choice;3;female;1;121;3.58;White;Bachelor's Degree;NA;More than $200,000;Fam_1;1;low;high;left;low;high;no;;no;;NA;NA;NA
+choice;3;female;2;121;3.58;White;Bachelor's Degree;NA;More than $200,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;3;female;3;121;3.58;White;Bachelor's Degree;NA;More than $200,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;3;female;1;121;3.58;White;Bachelor's Degree;NA;More than $200,000;choice;4;low;high;left;low;high;no;;no;;NA;NA;NA
+choice;3;female;2;121;3.58;White;Bachelor's Degree;NA;More than $200,000;choice;5;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;3;female;3;121;3.58;White;Bachelor's Degree;NA;More than $200,000;choice;6;high;none;right;none;high;no;;no;;NA;NA;NA
+choice;3;female;4;121;3.58;White;Bachelor's Degree;NA;More than $200,000;choice;7;low;low;right;low;low;no;;no;;NA;NA;NA
+choice;3;female;1;65;3.66;Hispanic or Latino;Bachelor's Degree;NA;$41,000 to $60,000;Fam_1;1;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;3;female;2;65;3.66;Hispanic or Latino;Bachelor's Degree;NA;$41,000 to $60,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;3;female;3;65;3.66;Hispanic or Latino;Bachelor's Degree;NA;$41,000 to $60,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;3;female;1;65;3.66;Hispanic or Latino;Bachelor's Degree;NA;$41,000 to $60,000;choice;4;low;low;left;low;low;no;;no;;NA;NA;NA
+choice;3;female;2;65;3.66;Hispanic or Latino;Bachelor's Degree;NA;$41,000 to $60,000;choice;5;high;none;left;high;none;no;;no;;NA;NA;
+choice;3;female;3;65;3.66;Hispanic or Latino;Bachelor's Degree;NA;$41,000 to $60,000;choice;6;low;high;left;low;high;no;;no;;NA;NA;NA
+choice;3;female;4;65;3.66;Hispanic or Latino;Bachelor's Degree;NA;$41,000 to $60,000;choice;7;none;low;left;none;low;yes;;yes;;10;better;NA
+choice;3;female;1;146;3.8;Asian-American;Bachelor's Degree;NA;More than $200,000;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;3;female;2;146;3.8;Asian-American;Bachelor's Degree;NA;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;3;female;3;146;3.8;Asian-American;Bachelor's Degree;NA;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;3;female;1;146;3.8;Asian-American;Bachelor's Degree;NA;More than $200,000;choice;4;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;3;female;2;146;3.8;Asian-American;Bachelor's Degree;NA;More than $200,000;choice;5;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;3;female;3;146;3.8;Asian-American;Bachelor's Degree;NA;More than $200,000;choice;6;high;low;right;low;high;no;;no;;NA;NA;NA
+choice;3;female;4;146;3.8;Asian-American;Bachelor's Degree;NA;More than $200,000;choice;7;high;high;right;high;high;no;;no;;NA;NA;NA
+choice;3;male;1;66;3.86;Hispanic or Latino/Asian;Some Highschool;Some College;$81,000 to $100,000;Fam_1;1;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;3;male;2;66;3.86;Hispanic or Latino/Asian;Some Highschool;Some College;$81,000 to $100,000;Fam_2;2;high;none;left;high;none;yes;;no;;10;worse;neutral
+choice;3;male;3;66;3.86;Hispanic or Latino/Asian;Some Highschool;Some College;$81,000 to $100,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;3;male;1;66;3.86;Hispanic or Latino/Asian;Some Highschool;Some College;$81,000 to $100,000;choice;4;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;3;male;2;66;3.86;Hispanic or Latino/Asian;Some Highschool;Some College;$81,000 to $100,000;choice;5;none;high;left;none;high;yes;;yes;;14;better;neutral
+choice;3;male;3;66;3.86;Hispanic or Latino/Asian;Some Highschool;Some College;$81,000 to $100,000;choice;6;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;3;male;4;66;3.86;Hispanic or Latino/Asian;Some Highschool;Some College;$81,000 to $100,000;choice;7;high;high;right;high;high;no;;no;;NA;NA;NA
+choice;3;male;1;84;3.87;White;Some Highschool;Master's Degree;$141,000 to $160,000;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;3;male;2;84;3.87;White;Some Highschool;Master's Degree;$141,000 to $160,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;3;male;3;84;3.87;White;Some Highschool;Master's Degree;$141,000 to $160,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;3;male;1;84;3.87;White;Some Highschool;Master's Degree;$141,000 to $160,000;choice;4;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;3;male;2;84;3.87;White;Some Highschool;Master's Degree;$141,000 to $160,000;choice;5;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;3;male;3;84;3.87;White;Some Highschool;Master's Degree;$141,000 to $160,000;choice;6;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;3;male;4;84;3.87;White;Some Highschool;Master's Degree;$141,000 to $160,000;choice;7;high;high;left;high;high;no;;no;;NA;NA;NA
+choice;3;male;1;90;3.93;White;Bachelor's Degree;NA;$141,000 to $160,000;Fam_1;1;low;high;left;low;high;no;;no;;NA;NA;NA
+choice;3;male;2;90;3.93;White;Bachelor's Degree;NA;$141,000 to $160,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;3;male;3;90;3.93;White;Bachelor's Degree;NA;$141,000 to $160,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;3;male;1;90;3.93;White;Bachelor's Degree;NA;$141,000 to $160,000;choice;4;low;high;right;high;low;yes;;yes;;24;worse;neutral
+choice;3;male;2;90;3.93;White;Bachelor's Degree;NA;$141,000 to $160,000;choice;5;none;low;left;none;low;yes;;yes;;4;better;neutral
+choice;3;male;3;90;3.93;White;Bachelor's Degree;NA;$141,000 to $160,000;choice;6;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;3;male;4;90;3.93;White;Bachelor's Degree;NA;$141,000 to $160,000;choice;7;low;low;right;low;low;no;;no;;NA;NA;NA
+choice;3;male;1;74;3.95;White;Master's Degree;Master's Degree;More than $200,000;Fam_1;1;low;high;;high;low;no;;no;;NA;NA;NA
+choice;3;male;2;74;3.95;White;Master's Degree;Master's Degree;More than $200,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;3;male;3;74;3.95;White;Master's Degree;Master's Degree;More than $200,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;3;male;1;74;3.95;White;Master's Degree;Master's Degree;More than $200,000;choice;4;high;low;left;high;low;yes;;no;;9;worse;neutral
+choice;3;male;2;74;3.95;White;Master's Degree;Master's Degree;More than $200,000;choice;5;none;high;left;none;high;no;;no;;NA;NA;NA
+choice;3;male;3;74;3.95;White;Master's Degree;Master's Degree;More than $200,000;choice;6;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;3;male;4;74;3.95;White;Master's Degree;Master's Degree;More than $200,000;choice;7;high;high;right;high;high;no;;no;;NA;NA;NA
+choice;4;male;1;109;4.17;NA;NA;NA;NA;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;4;male;2;109;4.17;NA;NA;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;4;male;3;109;4.17;NA;NA;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;4;male;1;109;4.17;NA;NA;NA;NA;choice;4;low;high;left;low;high;no;;no;;NA;NA;NA
+choice;4;male;2;109;4.17;NA;NA;NA;NA;choice;5;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;4;male;3;109;4.17;NA;NA;NA;NA;choice;6;none;none;left;none;none;no;;no;;NA;NA;NA
+choice;4;male;4;109;4.17;NA;NA;NA;NA;choice;7;high;none;right;none;high;no;;no;;NA;NA;NA
+choice;4;male;1;119;4.19;White;Highschool Diploma;Master's Degree;More than $200,000;Fam_1;1;high;low;right;low;high;yes;;no;;5;better;neutral
+choice;4;male;2;119;4.19;White;Highschool Diploma;Master's Degree;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;4;male;3;119;4.19;White;Highschool Diploma;Master's Degree;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;4;male;1;119;4.19;White;Highschool Diploma;Master's Degree;More than $200,000;choice;4;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;4;male;2;119;4.19;White;Highschool Diploma;Master's Degree;More than $200,000;choice;5;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;4;male;3;119;4.19;White;Highschool Diploma;Master's Degree;More than $200,000;choice;6;none;none;right;none;none;no;;no;;NA;NA;NA
+choice;4;male;4;119;4.19;White;Highschool Diploma;Master's Degree;More than $200,000;choice;7;high;none;right;none;high;no;;no;;NA;NA;NA
+choice;4;male;1;72;4.28;Hispanic or Latino/White;Bachelor's Degree;NA;NA;Fam_1;1;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;4;male;2;72;4.28;Hispanic or Latino/White;Bachelor's Degree;NA;NA;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;4;male;3;72;4.28;Hispanic or Latino/White;Bachelor's Degree;NA;NA;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;4;male;1;72;4.28;Hispanic or Latino/White;Bachelor's Degree;NA;NA;choice;4;low;high;left;low;high;no;;no;;NA;NA;NA
+choice;4;male;2;72;4.28;Hispanic or Latino/White;Bachelor's Degree;NA;NA;choice;5;none;low;left;none;low;no;;no;;NA;NA;NA
+choice;4;male;3;72;4.28;Hispanic or Latino/White;Bachelor's Degree;NA;NA;choice;6;high;none;right;none;high;yes;;no;;7;better;negative
+choice;4;male;4;72;4.28;Hispanic or Latino/White;Bachelor's Degree;NA;NA;choice;7;low;low;left;low;low;no;;no;;NA;NA;NA
+choice;4;female;1;83;4.45;Asian;Some Highschool;Master's Degree;$181,000 to $200,000;Fam_1;1;low;high;left;low;high;no;;no;;NA;NA;NA
+choice;4;female;2;83;4.45;Asian;Some Highschool;Master's Degree;$181,000 to $200,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;4;female;3;83;4.45;Asian;Some Highschool;Master's Degree;$181,000 to $200,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;4;female;1;83;4.45;Asian;Some Highschool;Master's Degree;$181,000 to $200,000;choice;4;low;low;right;low;low;yes;;no;;13;same;neutral
+choice;4;female;2;83;4.45;Asian;Some Highschool;Master's Degree;$181,000 to $200,000;choice;5;high;none;left;high;none;yes;;no;;6;worse;neutral
+choice;4;female;3;83;4.45;Asian;Some Highschool;Master's Degree;$181,000 to $200,000;choice;6;low;high;right;high;low;yes;;no;;15;worse;neutral
+choice;4;female;4;83;4.45;Asian;Some Highschool;Master's Degree;$181,000 to $200,000;choice;7;none;low;left;none;low;yes;;no;;26;better;neutral
+choice;4;male;1;103;4.56;NA;NA;NA;NA;Fam_1;1;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;4;male;2;103;4.56;NA;NA;NA;NA;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;4;male;3;103;4.56;NA;NA;NA;NA;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;4;male;1;103;4.56;NA;NA;NA;NA;choice;4;low;high;right;high;low;yes;;no;;17;worse;neutral
+choice;4;male;2;103;4.56;NA;NA;NA;NA;choice;5;none;low;right;low;none;yes;;no;;10;worse;neutral
+choice;4;male;3;103;4.56;NA;NA;NA;NA;choice;6;high;none;right;none;high;yes;;yes;;4;better;sad
+choice;4;male;4;103;4.56;NA;NA;NA;NA;choice;7;low;low;left;low;low;no;;NA;;NA;NA;NA
+choice;4;female;1;134;4.56;Asian-American;NA;NA;NA;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;4;female;2;134;4.56;Asian-American;NA;NA;NA;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;4;female;3;134;4.56;Asian-American;NA;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;4;female;1;134;4.56;Asian-American;NA;NA;NA;choice;4;none;low;left;none;low;yes;;no;;2;better;neutral
+choice;4;female;2;134;4.56;Asian-American;NA;NA;NA;choice;5;high;none;right;none;high;yes;;no;;7;better;neutral
+choice;4;female;3;134;4.56;Asian-American;NA;NA;NA;choice;6;low;high;left;low;high;yes;;no;;4;better;neutral
+choice;4;female;4;134;4.56;Asian-American;NA;NA;NA;choice;7;high;high;left;high;high;yes;;no;;6;same;neutral
+choice;4;male;1;126;4.59;NA;NA;NA;NA;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;4;male;2;126;4.59;NA;NA;NA;NA;Fam_2;2;none;high;right;high;none;yes;;yes;;5;worse;negative
+choice;4;male;3;126;4.59;NA;NA;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;4;male;1;126;4.59;NA;NA;NA;NA;choice;4;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;4;male;2;126;4.59;NA;NA;NA;NA;choice;5;none;none;left;none;none;yes;;no;;22;same;neutral
+choice;4;male;3;126;4.59;NA;NA;NA;NA;choice;6;high;low;right;low;high;yes;;no;;20;better;negative
+choice;4;male;4;126;4.59;NA;NA;NA;NA;choice;7;low;none;left;low;none;yes;;no;;21;worse;neutral
+choice;4;male;1;133;4.61;White;NA;NA;NA;Fam_1;1;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;4;male;2;133;4.61;White;NA;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;4;male;3;133;4.61;White;NA;NA;NA;Fam_2;3;low;none;left;low;none;no;;yes;;NA;NA;NA
+choice;4;male;1;133;4.61;White;NA;NA;NA;choice;4;none;low;right;low;none;yes;;no;;5;worse;positive
+choice;4;male;2;133;4.61;White;NA;NA;NA;choice;5;high;none;right;none;high;yes;;no;;6;better;negative
+choice;4;male;3;133;4.61;White;NA;NA;NA;choice;6;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;4;male;4;133;4.61;White;NA;NA;NA;choice;7;high;high;left;high;high;no;;no;;NA;NA;NA
+choice;4;female;1;102;4.78;NA;NA;NA;NA;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;4;female;2;102;4.78;NA;NA;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;4;female;3;102;4.78;NA;NA;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;4;female;1;102;4.78;NA;NA;NA;NA;choice;4;none;high;left;none;high;no;;no;;NA;NA;NA
+choice;4;female;2;102;4.78;NA;NA;NA;NA;choice;5;none;none;right;none;none;yes;;no;;14;same;neutral
+choice;4;female;3;102;4.78;NA;NA;NA;NA;choice;6;high;low;right;low;high;no;;no;;NA;NA;NA
+choice;4;female;4;102;4.78;NA;NA;NA;NA;choice;7;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;4;male;1;118;4.86;White;Doctorate;NA;More than $200,000;Fam_1;1;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;4;male;2;118;4.86;White;Doctorate;NA;More than $200,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;4;male;3;118;4.86;White;Doctorate;NA;More than $200,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;4;male;1;118;4.86;White;Doctorate;NA;More than $200,000;choice;4;low;low;left;low;low;yes;;no;;4;same;neutral
+choice;4;male;2;118;4.86;White;Doctorate;NA;More than $200,000;choice;5;high;none;right;none;high;no;;no;;NA;NA;NA
+choice;4;male;3;118;4.86;White;Doctorate;NA;More than $200,000;choice;6;low;high;left;low;high;no;;no;;NA;NA;NA
+choice;4;male;4;118;4.86;White;Doctorate;NA;More than $200,000;choice;7;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;4;female;1;131;4.99;NA;NA;NA;NA;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;4;female;2;131;4.99;NA;NA;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;4;female;3;131;4.99;NA;NA;NA;NA;Fam_2;3;low;none;left;low;none;yes;;no;;7;worse;neutral
+choice;4;female;1;131;4.99;NA;NA;NA;NA;choice;4;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;4;female;2;131;4.99;NA;NA;NA;NA;choice;5;none;none;left;none;none;no;;no;;NA;NA;NA
+choice;4;female;3;131;4.99;NA;NA;NA;NA;choice;6;high;low;right;low;high;no;;no;;NA;NA;NA
+choice;4;female;4;131;4.99;NA;NA;NA;NA;choice;7;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;5;male;1;127;5.06;NA;NA;NA;NA;Fam_1;1;low;high;left;low;high;no;;no;;NA;NA;NA
+choice;5;male;2;127;5.06;NA;NA;NA;NA;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;5;male;3;127;5.06;NA;NA;NA;NA;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;5;male;1;127;5.06;NA;NA;NA;NA;choice;4;low;low;left;low;low;no;;no;;NA;NA;NA
+choice;5;male;2;127;5.06;NA;NA;NA;NA;choice;5;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;5;male;3;127;5.06;NA;NA;NA;NA;choice;6;low;high;left;low;high;no;;no;;NA;NA;NA
+choice;5;male;4;127;5.06;NA;NA;NA;NA;choice;7;none;low;left;none;low;yes;;no;;18;better;neutral
+choice;5;male;1;71;5.28;African or African American/Pacific Islander;Master's Degree;NA;More than $200,000;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;5;male;2;71;5.28;African or African American/Pacific Islander;Master's Degree;NA;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;5;male;3;71;5.28;African or African American/Pacific Islander;Master's Degree;NA;More than $200,000;Fam_2;3;low;none;right;none;low;no;;no;;NA;NA;NA
+choice;5;male;1;71;5.28;African or African American/Pacific Islander;Master's Degree;NA;More than $200,000;choice;4;none;high;left;none;high;no;;no;;NA;NA;NA
+choice;5;male;2;71;5.28;African or African American/Pacific Islander;Master's Degree;NA;More than $200,000;choice;5;none;none;right;none;none;no;;no;;NA;NA;NA
+choice;5;male;3;71;5.28;African or African American/Pacific Islander;Master's Degree;NA;More than $200,000;choice;6;high;low;right;low;high;no;;no;;NA;NA;NA
+choice;5;male;4;71;5.28;African or African American/Pacific Islander;Master's Degree;NA;More than $200,000;choice;7;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;5;male;1;129;5.31;NA;NA;NA;NA;Fam_1;1;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;5;male;2;129;5.31;NA;NA;NA;NA;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;5;male;3;129;5.31;NA;NA;NA;NA;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;5;male;1;129;5.31;NA;NA;NA;NA;choice;4;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;5;male;2;129;5.31;NA;NA;NA;NA;choice;5;none;high;right;high;none;yes;;no;;5;worse;positive
+choice;5;male;3;129;5.31;NA;NA;NA;NA;choice;6;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;5;male;4;129;5.31;NA;NA;NA;NA;choice;7;high;high;right;high;high;yes;;no;;27;same;neutral
+choice;5;female;1;130;5.52;NA;NA;NA;NA;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;5;female;2;130;5.52;NA;NA;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;5;female;3;130;5.52;NA;NA;NA;NA;Fam_2;3;low;none;right;none;low;no;;no;;NA;NA;NA
+choice;5;female;1;130;5.52;NA;NA;NA;NA;choice;4;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;5;female;2;130;5.52;NA;NA;NA;NA;choice;5;none;low;left;none;low;no;;no;;NA;NA;NA
+choice;5;female;3;130;5.52;NA;NA;NA;NA;choice;6;none;none;right;none;none;no;;no;;NA;NA;NA
+choice;5;female;4;130;5.52;NA;NA;NA;NA;choice;7;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;5;female;1;112;5.52;NA;NA;NA;NA;Fam_1;1;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;5;female;2;112;5.52;NA;NA;NA;NA;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;5;female;3;112;5.52;NA;NA;NA;NA;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;5;female;1;112;5.52;NA;NA;NA;NA;choice;4;low;high;left;low;high;yes;;no;;24;better;sad
+choice;5;female;2;112;5.52;NA;NA;NA;NA;choice;5;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;5;female;3;112;5.52;NA;NA;NA;NA;choice;6;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;5;female;4;112;5.52;NA;NA;NA;NA;choice;7;low;low;left;low;low;yes;;no;;30;same;neutral
+choice;5;male;1;122;5.61;White;Some College;NA;$41,000 to $60,000;Fam_1;1;low;high;left;low;high;no;;no;;NA;NA;NA
+choice;5;male;2;122;5.61;White;Some College;NA;$41,000 to $60,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;5;male;3;122;5.61;White;Some College;NA;$41,000 to $60,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;5;male;1;122;5.61;White;Some College;NA;$41,000 to $60,000;choice;4;low;low;right;low;low;no;;no;;NA;NA;NA
+choice;5;male;2;122;5.61;White;Some College;NA;$41,000 to $60,000;choice;5;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;5;male;3;122;5.61;White;Some College;NA;$41,000 to $60,000;choice;6;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;5;male;4;122;5.61;White;Some College;NA;$41,000 to $60,000;choice;7;none;low;left;none;low;no;;no;;NA;NA;NA
+choice;5;female;1;128;5.63;NA;NA;NA;NA;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;5;female;2;128;5.63;NA;NA;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;5;female;3;128;5.63;NA;NA;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;5;female;1;128;5.63;NA;NA;NA;NA;choice;4;none;low;right;low;none;yes;;no;;5;worse;positive
+choice;5;female;2;128;5.63;NA;NA;NA;NA;choice;5;high;none;left;high;none;yes;;no;;8;worse;positive
+choice;5;female;3;128;5.63;NA;NA;NA;NA;choice;6;low;high;right;high;low;yes;;no;;4;worse;neutral
+choice;5;female;4;128;5.63;NA;NA;NA;NA;choice;7;high;high;left;high;high;yes;;yes;;9;same;neutral
+choice;5;male;1;110;5.75;NA;NA;NA;NA;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;5;male;2;110;5.75;NA;NA;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;5;male;3;110;5.75;NA;NA;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;5;male;1;110;5.75;NA;NA;NA;NA;choice;4;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;5;male;2;110;5.75;NA;NA;NA;NA;choice;5;none;low;right;low;none;yes;;no;;7;worse;positive
+choice;5;male;3;110;5.75;NA;NA;NA;NA;choice;6;none;none;right;none;none;yes;;no;;6;same;neutral
+choice;5;male;4;110;5.75;NA;NA;NA;NA;choice;7;high;none;right;none;high;yes;;no;;21;better;sad
+choice;5;male;1;111;5.8;NA;NA;NA;NA;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;5;male;2;111;5.8;NA;NA;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;5;male;3;111;5.8;NA;NA;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+choice;5;male;1;111;5.8;NA;NA;NA;NA;choice;4;none;high;right;high;none;no;;no;;NA;NA;NA
+choice;5;male;2;111;5.8;NA;NA;NA;NA;choice;5;none;none;left;none;none;no;;no;;NA;NA;NA
+choice;5;male;3;111;5.8;NA;NA;NA;NA;choice;6;high;low;left;high;low;yes;;no;;7;worse;neutral
+choice;5;male;4;111;5.8;NA;NA;NA;NA;choice;7;low;none;right;none;low;no;;no;;NA;NA;NA
+choice;5;male;1;97;5.88;NA;NA;NA;NA;Fam_1;1;high;low;left;high;low;no;;no;;;NA;NA
+choice;5;male;2;97;5.88;NA;NA;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;;NA;NA
+choice;5;male;3;97;5.88;NA;NA;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;;NA;NA
+choice;5;male;1;97;5.88;NA;NA;NA;NA;choice;4;low;high;left;low;high;yes;;no;;;NA;NA
+choice;5;male;2;97;5.88;NA;NA;NA;NA;choice;5;none;low;right;low;none;yes;;no;;;NA;NA
+choice;5;male;3;97;5.88;NA;NA;NA;NA;choice;6;none;none;right;none;none;yes;;no;;;NA;NA
+choice;5;male;4;97;5.88;NA;NA;NA;NA;choice;7;high;none;right;none;high;yes;;yes;;;NA;NA
+choice;5;female;1;99;5.95;NA;NA;NA;NA;Fam_1;1;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;5;female;2;99;5.95;NA;NA;NA;NA;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;5;female;3;99;5.95;NA;NA;NA;NA;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+choice;5;female;1;99;5.95;NA;NA;NA;NA;choice;4;low;high;right;high;low;no;;no;;NA;NA;NA
+choice;5;female;2;99;5.95;NA;NA;NA;NA;choice;5;none;low;left;none;low;yes;;no;;21;better;negative
+choice;5;female;3;99;5.95;NA;NA;NA;NA;choice;6;high;none;left;high;none;no;;no;;NA;NA;NA
+choice;5;female;4;99;5.95;NA;NA;NA;NA;choice;7;low;low;right;low;low;no;;no;;NA;NA;NA
+choice;5;female;1;98;5.97;NA;NA;NA;NA;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+choice;5;female;2;98;5.97;NA;NA;NA;NA;Fam_2;2;none;high;left;none;high;no;;no;;NA;NA;NA
+choice;5;female;3;98;5.97;NA;NA;NA;NA;Fam_2;3;low;none;right;none;low;no;;no;;NA;NA;NA
+choice;5;female;1;98;5.97;NA;NA;NA;NA;choice;4;none;high;right;high;none;yes;;no;;16;worse;neutral
+choice;5;female;2;98;5.97;NA;NA;NA;NA;choice;5;none;none;right;none;none;yes;;no;;18;same;neutral
+choice;5;female;3;98;5.97;NA;NA;NA;NA;choice;6;high;low;right;low;high;no;;no;;NA;NA;NA
+choice;5;female;4;98;5.97;NA;NA;NA;NA;choice;7;low;none;left;low;none;no;;no;;NA;NA;NA
+control;2;male;1;180;2.13;Asian,White;Bachelor's Degree (?);NA;More than $200,000;Fam_1;1;low;high;left;low;high;NA;;no;;NA;NA;NA
+control;2;male;2;180;2.13;Asian,White;Bachelor's Degree (?);NA;More than $200,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+control;2;male;3;180;2.13;Asian,White;Bachelor's Degree (?);NA;More than $200,000;Fam_2;3;none;low;left;none;low;no;;no;;NA;NA;NA
+control;2;male;1;180;2.13;Asian,White;Bachelor's Degree (?);NA;More than $200,000;control;4;low;high;left;low;high;no;;no;;NA;NA;NA
+control;2;male;2;180;2.13;Asian,White;Bachelor's Degree (?);NA;More than $200,000;control;5;none;low;right;low;none;no;;no;;NA;NA;NA
+control;2;male;3;180;2.13;Asian,White;Bachelor's Degree (?);NA;More than $200,000;control;6;high;none;right;none;high;yes;;no;;17;better;neutral
+control;2;male;4;180;2.13;Asian,White;Bachelor's Degree (?);NA;More than $200,000;control;7;low;low;left;low;low;no;;no;;NA;NA;NA
+control;2;female;1;185;2.28;White;Some High School;Bachelor's Degree;$181,000 to $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+control;2;female;2;185;2.28;White;Some High School;Bachelor's Degree;$181,000 to $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;2;female;3;185;2.28;White;Some High School;Bachelor's Degree;$181,000 to $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;2;female;1;185;2.28;White;Some High School;Bachelor's Degree;$181,000 to $200,000;control;4;low;high;right;high;low;no;;no;;NA;NA;NA
+control;2;female;2;185;2.28;White;Some High School;Bachelor's Degree;$181,000 to $200,000;control;5;none;low;right;low;none;no;;no;;NA;NA;NA
+control;2;female;3;185;2.28;White;Some High School;Bachelor's Degree;$181,000 to $200,000;control;6;none;none;right;none;none;no;;no;;NA;NA;NA
+control;2;female;4;185;2.28;White;Some High School;Bachelor's Degree;$181,000 to $200,000;control;7;high;none;left;high;none;no;;no;;NA;NA;NA
+control;2;female;1;207;2.41;Asian;Bachelor's Degree;Bachelor's Degree;$21,000 to $40,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+control;2;female;2;207;2.41;Asian;Bachelor's Degree;Bachelor's Degree;$21,000 to $40,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;2;female;3;207;2.41;Asian;Bachelor's Degree;Bachelor's Degree;$21,000 to $40,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;2;female;1;207;2.41;Asian;Bachelor's Degree;Bachelor's Degree;$21,000 to $40,000;control;4;none;low;left;none;low;no;;yes;;NA;NA;NA
+control;2;female;2;207;2.41;Asian;Bachelor's Degree;Bachelor's Degree;$21,000 to $40,000;control;5;high;none;left;high;none;no;;no;;NA;NA;NA
+control;2;female;3;207;2.41;Asian;Bachelor's Degree;Bachelor's Degree;$21,000 to $40,000;control;6;low;high;left;low;high;no;;no;;NA;NA;NA
+control;2;female;4;207;2.41;Asian;Bachelor's Degree;Bachelor's Degree;$21,000 to $40,000;control;7;high;high;left;high;high;no;;no;;NA;NA;NA
+control;2;male;1;203;2.46;African or African American;Master's Degree;Bachelor's Degree;$161,000 to $180,000;Fam_1;1;low;high;right;high;low;NA;;NA;;NA;NA;NA
+control;2;male;2;203;2.46;African or African American;Master's Degree;Bachelor's Degree;$161,000 to $180,000;Fam_2;2;high;none;left;high;none;no;;NA;;NA;NA;NA
+control;2;male;3;203;2.46;African or African American;Master's Degree;Bachelor's Degree;$161,000 to $180,000;Fam_2;3;none;low;right;low;none;no;;NA;;NA;NA;NA
+control;2;male;1;203;2.46;African or African American;Master's Degree;Bachelor's Degree;$161,000 to $180,000;control;4;low;high;right;high;low;no;;NA;;NA;NA;NA
+control;2;male;2;203;2.46;African or African American;Master's Degree;Bachelor's Degree;$161,000 to $180,000;control;5;none;low;right;low;none;no;;NA;;NA;NA;NA
+control;2;male;3;203;2.46;African or African American;Master's Degree;Bachelor's Degree;$161,000 to $180,000;control;6;high;none;right;none;high;no;;NA;;NA;NA;NA
+control;2;male;4;203;2.46;African or African American;Master's Degree;Bachelor's Degree;$161,000 to $180,000;control;7;low;low;left;low;low;no;;NA;;NA;NA;NA
+control;2;female;1;189;2.64;Asian;Other (JD);NA;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;NA;;NA;NA;NA
+control;2;female;2;189;2.64;Asian;Other (JD);NA;More than $200,000;Fam_2;2;none;high;right;high;none;no;;NA;;NA;NA;NA
+control;2;female;3;189;2.64;Asian;Other (JD);NA;More than $200,000;Fam_2;3;low;none;left;low;none;no;;NA;;NA;NA;NA
+control;2;female;1;189;2.64;Asian;Other (JD);NA;More than $200,000;control;4;none;high;right;high;none;no;;NA;;NA;NA;NA
+control;2;female;2;189;2.64;Asian;Other (JD);NA;More than $200,000;control;5;none;none;right;none;none;no;;yes;;NA;NA;NA
+control;2;female;3;189;2.64;Asian;Other (JD);NA;More than $200,000;control;6;high;low;right;low;high;no;;NA;;NA;NA;NA
+control;2;female;4;189;2.64;Asian;Other (JD);NA;More than $200,000;control;7;low;none;left;low;none;no;;NA;;NA;NA;NA
+control;2;female;1;168;2.66;Asian;Master's Degree;Master's Degree;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;NA;;NA;NA;NA
+control;2;female;2;168;2.66;Asian;Master's Degree;Master's Degree;More than $200,000;Fam_2;2;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+control;2;female;3;168;2.66;Asian;Master's Degree;Master's Degree;More than $200,000;Fam_2;3;low;none;left;low;none;no;no;no;NA;NA;NA;NA
+control;2;female;1;168;2.66;Asian;Master's Degree;Master's Degree;More than $200,000;control;4;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+control;2;female;2;168;2.66;Asian;Master's Degree;Master's Degree;More than $200,000;control;5;none;none;right;none;none;no;no;no;NA;NA;NA;NA
+control;2;female;3;168;2.66;Asian;Master's Degree;Master's Degree;More than $200,000;control;6;high;low;left;high;low;no;no;no;NA;NA;NA;NA
+control;2;female;4;168;2.66;Asian;Master's Degree;Master's Degree;More than $200,000;control;7;low;none;left;low;none;no;no;no;NA;NA;NA;NA
+control;2;male;1;181;2.68;White;Some High School;Other (J.D. Degree);More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+control;2;male;2;181;2.68;White;Some High School;Other (J.D. Degree);More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;2;male;3;181;2.68;White;Some High School;Other (J.D. Degree);More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;2;male;1;181;2.68;White;Some High School;Other (J.D. Degree);More than $200,000;control;4;none;high;right;high;none;no;;no;;NA;NA;NA
+control;2;male;2;181;2.68;White;Some High School;Other (J.D. Degree);More than $200,000;control;5;none;none;right;none;none;yes;;yes;;7;same;neutral
+control;2;male;3;181;2.68;White;Some High School;Other (J.D. Degree);More than $200,000;control;6;high;low;left;high;low;no;;NA;;NA;NA;NA
+control;2;male;4;181;2.68;White;Some High School;Other (J.D. Degree);More than $200,000;control;7;low;none;left;low;none;no;;NA;;NA;NA;NA
+control;2;male;1;196;2.73;Asian,White;Doctorate;Doctorate;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+control;2;male;2;196;2.73;Asian,White;Doctorate;Doctorate;More than $200,000;Fam_2;2;high;none;left;high;none;no;no;no;NA;NA;NA;NA
+control;2;male;3;196;2.73;Asian,White;Doctorate;Doctorate;More than $200,000;Fam_2;3;none;low;right;low;none;no;no;no;NA;NA;NA;NA
+control;2;male;1;196;2.73;Asian,White;Doctorate;Doctorate;More than $200,000;control;4;low;low;right;low;low;yes;yes;yes;5;6;same;NA
+control;2;male;2;196;2.73;Asian,White;Doctorate;Doctorate;More than $200,000;control;5;high;none;left;high;none;no;no;no;NA;NA;NA;NA
+control;2;male;3;196;2.73;Asian,White;Doctorate;Doctorate;More than $200,000;control;6;low;high;right;high;low;no;no;no;NA;NA;NA;NA
+control;2;male;4;196;2.73;Asian,White;Doctorate;Doctorate;More than $200,000;control;7;none;low;right;low;none;no;no;no;NA;NA;NA;NA
+control;2;male;1;197;2.73;Asian,White;Doctorate;Doctorate;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+control;2;male;2;197;2.73;Asian,White;Doctorate;Doctorate;More than $200,000;Fam_2;2;high;none;left;high;none;no;no;no;NA;NA;NA;NA
+control;2;male;3;197;2.73;Asian,White;Doctorate;Doctorate;More than $200,000;Fam_2;3;none;low;right;low;none;no;no;no;NA;NA;NA;NA
+control;2;male;1;197;2.73;Asian,White;Doctorate;Doctorate;More than $200,000;control;4;high;low;right;low;high;no;no;yes;NA;NA;NA;NA
+control;2;male;2;197;2.73;Asian,White;Doctorate;Doctorate;More than $200,000;control;5;none;high;left;none;high;yes;yes;yes;13;13;better;negative
+control;2;male;3;197;2.73;Asian,White;Doctorate;Doctorate;More than $200,000;control;6;low;none;left;low;none;no;no;no;NA;NA;NA;NA
+control;2;male;4;197;2.73;Asian,White;Doctorate;Doctorate;More than $200,000;control;7;high;high;left;high;high;no;no;yes;NA;NA;NA;NA
+control;2;male;1;206;2.77;Asian;Doctorate;Doctorate;$21,000 to $40,000;Fam_1;1;high;low;left;high;low;NA;;NA;;NA;NA;NA
+control;2;male;2;206;2.77;Asian;Doctorate;Doctorate;$21,000 to $40,000;Fam_2;2;none;high;right;high;none;no;no;NA;NA;NA;NA;NA
+control;2;male;3;206;2.77;Asian;Doctorate;Doctorate;$21,000 to $40,000;Fam_2;3;low;none;left;low;none;no;no;NA;NA;NA;NA;NA
+control;2;male;1;206;2.77;Asian;Doctorate;Doctorate;$21,000 to $40,000;control;4;low;high;left;low;high;no;no;NA;NA;NA;NA;NA
+control;2;male;2;206;2.77;Asian;Doctorate;Doctorate;$21,000 to $40,000;control;5;none;low;right;low;none;no;no;NA;NA;NA;NA;NA
+control;2;male;3;206;2.77;Asian;Doctorate;Doctorate;$21,000 to $40,000;control;6;none;none;right;none;none;no;no;NA;NA;NA;NA;NA
+control;2;male;4;206;2.77;Asian;Doctorate;Doctorate;$21,000 to $40,000;control;7;high;none;left;high;none;no;no;NA;NA;NA;NA;NA
+control;2;female;1;162;2.89;White;Some College;Some College;$41,000 to $60,000;Fam_1;1;low;high;right;high;low;NA;;NA;;NA;NA;NA
+control;2;female;2;162;2.89;White;Some College;Some College;$41,000 to $60,000;Fam_2;2;high;none;left;high;none;no;no;no;NA;NA;NA;NA
+control;2;female;3;162;2.89;White;Some College;Some College;$41,000 to $60,000;Fam_2;3;none;low;right;low;none;no;no;no;NA;NA;NA;NA
+control;2;female;1;162;2.89;White;Some College;Some College;$41,000 to $60,000;control;4;low;high;right;high;low;no;no;no;NA;NA;NA;NA
+control;2;female;2;162;2.89;White;Some College;Some College;$41,000 to $60,000;control;5;none;low;right;low;none;no;no;no;NA;NA;NA;NA
+control;2;female;3;162;2.89;White;Some College;Some College;$41,000 to $60,000;control;6;high;none;right;none;high;no;no;no;NA;NA;NA;NA
+control;2;female;4;162;2.89;White;Some College;Some College;$41,000 to $60,000;control;7;low;low;right;low;low;no;no;no;NA;NA;NA;NA
+control;2;female;1;178;2.94;Hispanic or Latino,White;Bachelor's Degree;NA;$181,000 to $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+control;2;female;2;178;2.94;Hispanic or Latino,White;Bachelor's Degree;NA;$181,000 to $200,000;Fam_2;2;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+control;2;female;3;178;2.94;Hispanic or Latino,White;Bachelor's Degree;NA;$181,000 to $200,000;Fam_2;3;low;none;left;low;none;no;no;no;NA;NA;NA;NA
+control;2;female;1;178;2.94;Hispanic or Latino,White;Bachelor's Degree;NA;$181,000 to $200,000;control;4;low;high;left;low;high;no;no;no;NA;NA;NA;NA
+control;2;female;2;178;2.94;Hispanic or Latino,White;Bachelor's Degree;NA;$181,000 to $200,000;control;5;none;low;right;low;none;no;no;no;NA;NA;NA;NA
+control;2;female;3;178;2.94;Hispanic or Latino,White;Bachelor's Degree;NA;$181,000 to $200,000;control;6;none;none;left;none;none;no;no;no;NA;NA;NA;NA
+control;2;female;4;178;2.94;Hispanic or Latino,White;Bachelor's Degree;NA;$181,000 to $200,000;control;7;high;none;left;high;none;no;no;no;NA;NA;NA;NA
+control;3;male;1;142;3.13;Asian;Doctorate;NA;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;NA;;NA;NA;NA
+control;3;male;2;142;3.13;Asian;Doctorate;NA;More than $200,000;Fam_2;2;none;high;right;high;none;no;no;NA;NA;NA;NA;NA
+control;3;male;3;142;3.13;Asian;Doctorate;NA;More than $200,000;Fam_2;3;low;none;left;low;none;no;no;NA;NA;NA;NA;NA
+control;3;male;1;142;3.13;Asian;Doctorate;NA;More than $200,000;control;4;low;high;right;high;low;no;no;NA;NA;NA;NA;NA
+control;3;male;2;142;3.13;Asian;Doctorate;NA;More than $200,000;control;5;none;low;left;none;low;yes;yes;yes ;9;10;better;neutral
+control;3;male;3;142;3.13;Asian;Doctorate;NA;More than $200,000;control;6;none;low;right;low;none;no;no;NA;NA;NA;NA;NA
+control;3;male;4;142;3.13;Asian;Doctorate;NA;More than $200,000;control;7;high;none;left;high;none;no;no;NA;NA;NA;NA;NA
+control;3;female;1;187;3.14;Asian;Master's Degree;NA;More than $200,000;Fam_1;1;low;high;left;low;high;NA;;no;;NA;NA;NA
+control;3;female;2;187;3.14;Asian;Master's Degree;NA;More than $200,000;Fam_2;2;high;none;left;high;none;no;no;no;NA;NA;NA;NA
+control;3;female;3;187;3.14;Asian;Master's Degree;NA;More than $200,000;Fam_2;3;none;low;right;low;none;no;no;no;NA;NA;NA;NA
+control;3;female;1;187;3.14;Asian;Master's Degree;NA;More than $200,000;control;4;low;high;right;high;low;no;no;no;NA;NA;NA;NA
+control;3;female;2;187;3.14;Asian;Master's Degree;NA;More than $200,000;control;5;high;low;right;low;high;no;no;no;NA;NA;NA;NA
+control;3;female;3;187;3.14;Asian;Master's Degree;NA;More than $200,000;control;6;high;none;right;none;high;no;no;yes;12;NA;NA;NA
+control;3;female;4;187;3.14;Asian;Master's Degree;NA;More than $200,000;control;7;low;low;right;low;low;no;no;no;NA;NA;NA;NA
+control;3;male;1;150;3.41;Pacific Islander;NA;NA;NA;Fam_1;1;low;high;right;high;low;NA;;NA;;NA;NA;NA
+control;3;male;2;150;3.41;Pacific Islander;NA;NA;NA;Fam_2;2;high;none;left;high;none;no;no;NA;NA;NA;NA;NA
+control;3;male;3;150;3.41;Pacific Islander;NA;NA;NA;Fam_2;3;none;low;right;low;none;no;no;NA;NA;NA;NA;NA
+control;3;male;1;150;3.41;Pacific Islander;NA;NA;NA;control;4;low;high;right;high;low;yes;yes;no;3;3;worse;neutral
+control;3;male;2;150;3.41;Pacific Islander;NA;NA;NA;control;5;none;low;left;none;low;yes;yes;no;3;3;better;neutral
+control;3;male;3;150;3.41;Pacific Islander;NA;NA;NA;control;6;high;none;right;none;high;no;no;NA;NA;NA;NA;NA
+control;3;male;4;150;3.41;Pacific Islander;NA;NA;NA;control;7;low;low;left;low;low;no;no;yes;NA;NA;NA;NA
+control;3;female;1;171;3.45;White;Some High School;Doctorate;$181,000 to $200,000;Fam_1;1;low;high;left;low;high;NA;;NA;;NA;NA;NA
+control;3;female;2;171;3.45;White;Some High School;Doctorate;$181,000 to $200,000;Fam_2;2;high;none;left;high;none;no;no;NA;NA;NA;NA;NA
+control;3;female;3;171;3.45;White;Some High School;Doctorate;$181,000 to $200,000;Fam_2;3;none;low;right;low;none;no;no;yes ;NA;NA;NA;NA
+control;3;female;1;171;3.45;White;Some High School;Doctorate;$181,000 to $200,000;control;4;low;high;right;high;low;no;no;NA;NA;NA;NA;NA
+control;3;female;2;171;3.45;White;Some High School;Doctorate;$181,000 to $200,000;control;5;none;low;right;low;none;no;no;NA;NA;NA;NA;NA
+control;3;female;3;171;3.45;White;Some High School;Doctorate;$181,000 to $200,000;control;6;high;none;left;high;none;no;no;NA;NA;NA;NA;NA
+control;3;female;4;171;3.45;White;Some High School;Doctorate;$181,000 to $200,000;control;7;low;low;right;low;low;no;no;NA;NA;NA;NA;NA
+control;3;female;1;163;3.64;White;Master's Degree;Master's Degree;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;NA;;NA;NA;NA
+control;3;female;2;163;3.64;White;Master's Degree;Master's Degree;More than $200,000;Fam_2;2;high;none;left;high;none;no;no;NA;NA;NA;NA;NA
+control;3;female;3;163;3.64;White;Master's Degree;Master's Degree;More than $200,000;Fam_2;3;none;low;right;low;none;no;no;NA;NA;NA;NA;NA
+control;3;female;1;163;3.64;White;Master's Degree;Master's Degree;More than $200,000;control;4;low;low;right;low;low;no;no;NA;NA;NA;NA;NA
+control;3;female;2;163;3.64;White;Master's Degree;Master's Degree;More than $200,000;control;5;high;none;left;high;none;yes;yes;yes ;27;27;worse;neutral
+control;3;female;3;163;3.64;White;Master's Degree;Master's Degree;More than $200,000;control;6;low;high;right;high;low;no;no;NA;NA;NA;NA;NA
+control;3;female;4;163;3.64;White;Master's Degree;Master's Degree;More than $200,000;control;7;none;low;right;low;none;no;no;NA;NA;NA;NA;NA
+control;3;male;1;179;3.72;Asian;NA;NA;$81,000 to $100,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+control;3;male;2;179;3.72;Asian;NA;NA;$81,000 to $100,000;Fam_2;2;none;high;right;high;none;no;no;yes;NA;NA;NA;NA
+control;3;male;3;179;3.72;Asian;NA;NA;$81,000 to $100,000;Fam_2;3;low;none;left;low;none;no;no;no;NA;NA;NA;NA
+control;3;male;1;179;3.72;Asian;NA;NA;$81,000 to $100,000;control;4;none;high;left;none;high;no;no;no;NA;NA;NA;NA
+control;3;male;2;179;3.72;Asian;NA;NA;$81,000 to $100,000;control;5;none;none;right;none;none;no;no;no;NA;NA;NA;NA
+control;3;male;3;179;3.72;Asian;NA;NA;$81,000 to $100,000;control;6;high;low;left;high;low;no;no;no;NA;NA;NA;NA
+control;3;male;4;179;3.72;Asian;NA;NA;$81,000 to $100,000;control;7;low;none;left;low;none;no;no;no;NA;NA;NA;NA
+control;3;male;1;184;3.74;Hispanic or Latino,Asian;Doctorate;Bachelor's Degree;$121,000 to $140,000;Fam_1;1;high;low;left;high;low;NA;;NA;;NA;NA;NA
+control;3;male;2;184;3.74;Hispanic or Latino,Asian;Doctorate;Bachelor's Degree;$121,000 to $140,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;3;male;3;184;3.74;Hispanic or Latino,Asian;Doctorate;Bachelor's Degree;$121,000 to $140,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;3;male;1;184;3.74;Hispanic or Latino,Asian;Doctorate;Bachelor's Degree;$121,000 to $140,000;control;4;none;high;right;high;none;no;;no;;NA;NA;NA
+control;3;male;2;184;3.74;Hispanic or Latino,Asian;Doctorate;Bachelor's Degree;$121,000 to $140,000;control;5;none;none;right;none;none;no;;no;;NA;NA;NA
+control;3;male;3;184;3.74;Hispanic or Latino,Asian;Doctorate;Bachelor's Degree;$121,000 to $140,000;control;6;high;low;right;low;high;no;;no;;NA;NA;NA
+control;3;male;4;184;3.74;Hispanic or Latino,Asian;Doctorate;Bachelor's Degree;$121,000 to $140,000;control;7;low;none;left;low;none;no;;no;;NA;NA;NA
+control;3;male;1;175;3.76;Hispanic or Latino;Some College;NA;$141,000 to $160,000;Fam_1;1;high;low;right;low;high;NA;;yes;;NA;NA;NA
+control;3;male;2;175;3.76;Hispanic or Latino;Some College;NA;$141,000 to $160,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;3;male;3;175;3.76;Hispanic or Latino;Some College;NA;$141,000 to $160,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;3;male;1;175;3.76;Hispanic or Latino;Some College;NA;$141,000 to $160,000;control;4;none;high;right;high;none;no;;no;;NA;NA;NA
+control;3;male;2;175;3.76;Hispanic or Latino;Some College;NA;$141,000 to $160,000;control;5;none;none;right;none;none;no;;NA;;NA;NA;NA
+control;3;male;3;175;3.76;Hispanic or Latino;Some College;NA;$141,000 to $160,000;control;6;high;low;left;high;low;yes;;yes;;14;worse;neutral
+control;3;male;4;175;3.76;Hispanic or Latino;Some College;NA;$141,000 to $160,000;control;7;low;none;left;low;none;no;;NA;;NA;NA;NA
+control;3;female;1;161;3.79;Asian;Bachelor's Degree;NA;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;NA;;NA;NA;NA
+control;3;female;2;161;3.79;Asian;Bachelor's Degree;NA;More than $200,000;Fam_2;2;high;none;left;high;none;no;;no;;;NA;NA
+control;3;female;3;161;3.79;Asian;Bachelor's Degree;NA;More than $200,000;Fam_2;3;none;low;right;low;none;no;;no;;;NA;NA
+control;3;female;1;161;3.79;Asian;Bachelor's Degree;NA;More than $200,000;control;4;high;low;left;high;low;no;;no;;;NA;NA
+control;3;female;2;161;3.79;Asian;Bachelor's Degree;NA;More than $200,000;control;5;none;high;right;high;none;no;;no;;;NA;NA
+control;3;female;3;161;3.79;Asian;Bachelor's Degree;NA;More than $200,000;control;6;low;none;left;low;none;no;;no;;;NA;NA
+control;3;female;4;161;3.79;Asian;Bachelor's Degree;NA;More than $200,000;control;7;high;high;right;high;high;no;;no;;;NA;NA
+control;3;female;1;164;3.81;White;Some High School;Master's Degree;$181,000 to $200,000;Fam_1;1;high;low;left;high;low;NA;;NA;;NA;NA;NA
+control;3;female;2;164;3.81;White;Some High School;Master's Degree;$181,000 to $200,000;Fam_2;2;none;high;right;high;none;no;;NA;;NA;NA;NA
+control;3;female;3;164;3.81;White;Some High School;Master's Degree;$181,000 to $200,000;Fam_2;3;low;none;left;low;none;no;;NA;;NA;NA;NA
+control;3;female;1;164;3.81;White;Some High School;Master's Degree;$181,000 to $200,000;control;4;none;low;right;low;none;yes;;yes;;7;worse;neutral
+control;3;female;2;164;3.81;White;Some High School;Master's Degree;$181,000 to $200,000;control;5;high;none;right;none;high;no;;NA;;NA;NA;NA
+control;3;female;3;164;3.81;White;Some High School;Master's Degree;$181,000 to $200,000;control;6;low;high;right;high;low;no;;NA;;NA;NA;NA
+control;3;female;4;164;3.81;White;Some High School;Master's Degree;$181,000 to $200,000;control;7;high;high;right;high;high;no;;NA;;NA;NA;NA
+control;3;male;1;188;3.9;Asian;NA;NA;NA;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+control;3;male;2;188;3.9;Asian;NA;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;3;male;3;188;3.9;Asian;NA;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;3;male;1;188;3.9;Asian;NA;NA;NA;control;4;low;high;right;high;low;no;;no;;NA;NA;NA
+control;3;male;2;188;3.9;Asian;NA;NA;NA;control;5;none;low;right;low;none;no;;no;;NA;NA;NA
+control;3;male;3;188;3.9;Asian;NA;NA;NA;control;6;none;none;right;none;none;no;;no;;NA;NA;NA
+control;3;male;4;188;3.9;Asian;NA;NA;NA;control;7;high;none;right;none;high;no;;yes ;;NA;NA;NA
+control;3;female;1;183;3.96;Asian;NA;NA;NA;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+control;3;female;2;183;3.96;Asian;NA;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;3;female;3;183;3.96;Asian;NA;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;3;female;1;183;3.96;Asian;NA;NA;NA;control;4;low;high;left;low;high;yes;;no;;17;better;neutral
+control;3;female;2;183;3.96;Asian;NA;NA;NA;control;5;none;low;right;low;none;no;;no;;NA;NA;NA
+control;3;female;3;183;3.96;Asian;NA;NA;NA;control;6;none;none;right;none;none;yes;;yes;;14;same;neutral
+control;3;female;4;183;3.96;Asian;NA;NA;NA;control;7;high;none;left;high;none;no;;no;;NA;NA;NA
+control;4;female;1;176;3.98;Other;Some High School;Master's Degree;$141,000 to $160,000;Fam_1;1;high;low;left;high;low;NA;;NA;;NA;NA;NA
+control;4;female;2;176;3.98;Other;Some High School;Master's Degree;$141,000 to $160,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;4;female;3;176;3.98;Other;Some High School;Master's Degree;$141,000 to $160,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;4;female;1;176;3.98;Other;Some High School;Master's Degree;$141,000 to $160,000;control;4;none;high;right;high;none;no;;no;;NA;NA;NA
+control;4;female;2;176;3.98;Other;Some High School;Master's Degree;$141,000 to $160,000;control;5;none;none;left;none;none;no;;no;;NA;NA;NA
+control;4;female;3;176;3.98;Other;Some High School;Master's Degree;$141,000 to $160,000;control;6;high;low;left;high;low;no;;no;;NA;NA;NA
+control;4;female;4;176;3.98;Other;Some High School;Master's Degree;$141,000 to $160,000;control;7;low;none;left;low;none;no;;no;;NA;NA;NA
+control;4;female;1;190;4.02;White;Some College;Bachelor's Degree;$61,000 to $80,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+control;4;female;3;190;4.02;White;Some College;Bachelor's Degree;$61,000 to $80,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;4;female;1;190;4.02;White;Some College;Bachelor's Degree;$61,000 to $80,000;control;4;none;low;left;none;low;yes;;yes;;7;NA;NA
+control;4;female;2;190;4.02;White;Some College;Bachelor's Degree;$61,000 to $80,000;control;5;high;none;left;high;none;no;;no;;NA;NA;NA
+control;4;female;3;190;4.02;White;Some College;Bachelor's Degree;$61,000 to $80,000;control;6;low;high;right;high;low;yes;;no;;6;NA;NA
+control;4;female;4;190;4.02;White;Some College;Bachelor's Degree;$61,000 to $80,000;control;7;high;high;right;high;high;no;;no;;NA;NA;NA
+control;4;female;2;190;4.02;White;Some College;Bachelor's Degree;$61,000 to $80,000;Fam_2;2;none;high;right;high;none;;;;;NA;NA;NA
+control;4;male;1;186;4.02;White;Doctorate;Doctorate;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+control;4;male;2;186;4.02;White;Doctorate;Doctorate;More than $200,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+control;4;male;3;186;4.02;White;Doctorate;Doctorate;More than $200,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+control;4;male;1;186;4.02;White;Doctorate;Doctorate;More than $200,000;control;4;low;low;right;low;low;no;;no;;NA;NA;NA
+control;4;male;2;186;4.02;White;Doctorate;Doctorate;More than $200,000;control;5;high;none;left;high;none;no;;no;;NA;NA;NA
+control;4;male;3;186;4.02;White;Doctorate;Doctorate;More than $200,000;control;6;low;high;left;low;high;no;;no;;NA;NA;NA
+control;4;male;4;186;4.02;White;Doctorate;Doctorate;More than $200,000;control;7;none;low;right;low;none;no;;no;;NA;NA;NA
+control;4;female;1;177;4.3;White;Master's Degree;Doctorate;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;NA;;NA;NA;NA
+control;4;female;2;177;4.3;White;Master's Degree;Doctorate;More than $200,000;Fam_2;2;high;none;left;high;none;no;;NA;;NA;NA;NA
+control;4;female;3;177;4.3;White;Master's Degree;Doctorate;More than $200,000;Fam_2;3;none;low;right;low;none;no;;NA;;NA;NA;NA
+control;4;female;1;177;4.3;White;Master's Degree;Doctorate;More than $200,000;control;4;low;high;right;high;low;no;;NA;;NA;NA;NA
+control;4;female;2;177;4.3;White;Master's Degree;Doctorate;More than $200,000;control;5;none;low;right;low;none;no;;NA;;NA;NA;NA
+control;4;female;3;177;4.3;White;Master's Degree;Doctorate;More than $200,000;control;6;high;none;left;high;none;no;;NA;;NA;NA;NA
+control;4;female;4;177;4.3;White;Master's Degree;Doctorate;More than $200,000;control;7;low;low;left;low;low;no;;NA;;NA;NA;NA
+control;4;female;1;143;4.28;White;Master's Degree;Master's Degree;$141,000 to $160,000;Fam_1;1;high;low;right;low;high;NA;;no;;NA;NA;NA
+control;4;female;2;143;4.28;White;Master's Degree;Master's Degree;$141,000 to $160,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;4;female;3;143;4.28;White;Master's Degree;Master's Degree;$141,000 to $160,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+control;4;female;1;143;4.28;White;Master's Degree;Master's Degree;$141,000 to $160,000;control;4;none;high;right;high;none;no;;no;;NA;NA;NA
+control;4;female;2;143;4.28;White;Master's Degree;Master's Degree;$141,000 to $160,000;control;5;none;none;right;none;none;no;;no;;NA;NA;NA
+control;4;female;3;143;4.28;White;Master's Degree;Master's Degree;$141,000 to $160,000;control;6;high;low;left;high;low;no;;no;;NA;NA;NA
+control;4;female;4;143;4.28;White;Master's Degree;Master's Degree;$141,000 to $160,000;control;7;low;none;left;low;none;no;;no;;NA;NA;NA
+control;4;male;1;144;4.28;White;Master's Degree;Master's Degree;$141,000 to $160,000;Fam_1;1;low;high;left;low;high;NA;;no;;NA;NA;NA
+control;4;male;2;144;4.28;White;Master's Degree;Master's Degree;$141,000 to $160,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+control;4;male;3;144;4.28;White;Master's Degree;Master's Degree;$141,000 to $160,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+control;4;male;1;144;4.28;White;Master's Degree;Master's Degree;$141,000 to $160,000;control;4;low;high;right;high;low;no;;no;;NA;NA;NA
+control;4;male;2;144;4.28;White;Master's Degree;Master's Degree;$141,000 to $160,000;control;5;low;none;left;low;none;no;;no;;NA;NA;NA
+control;4;male;3;144;4.28;White;Master's Degree;Master's Degree;$141,000 to $160,000;control;6;high;none;left;high;none;no;;no;;NA;NA;NA
+control;4;male;4;144;4.28;White;Master's Degree;Master's Degree;$141,000 to $160,000;control;7;low;low;right;low;low;no;;no;;NA;NA;NA
+control;4;male;1;140;4.34;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+control;4;male;2;140;4.34;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;4;male;3;140;4.34;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;4;male;1;140;4.34;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;control;4;low;high;right;high;low;no;;no;;NA;NA;NA
+control;4;male;2;140;4.34;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;control;5;none;low;right;low;none;no;;no;;NA;NA;NA
+control;4;male;3;140;4.34;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;control;6;none;none;right;none;none;no;;no;;NA;NA;NA
+control;4;male;4;140;4.34;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;control;7;high;none;left;high;none;no;;no;;NA;NA;NA
+control;4;female;1;182;4.45;Asian;NA;NA;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+control;4;female;2;182;4.45;Asian;NA;NA;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;4;female;3;182;4.45;Asian;NA;NA;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;4;female;1;182;4.45;Asian;NA;NA;More than $200,000;control;4;none;high;right;high;none;no;;no;;NA;NA;NA
+control;4;female;2;182;4.45;Asian;NA;NA;More than $200,000;control;5;none;none;left;none;none;no;;no;;NA;NA;NA
+control;4;female;3;182;4.45;Asian;NA;NA;More than $200,000;control;6;high;low;right;low;high;no;;no;;NA;NA;NA
+control;4;female;4;182;4.45;Asian;NA;NA;More than $200,000;control;7;low;none;left;low;none;no;;no;;NA;NA;NA
+control;4;male;1;165;4.59;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_1;1;low;high;left;low;high;NA;;NA;;NA;NA;NA
+control;4;male;2;165;4.59;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+control;4;male;3;165;4.59;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+control;4;male;1;165;4.59;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;control;4;high;low;left;high;low;no;;no;;NA;NA;NA
+control;4;male;2;165;4.59;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;control;5;none;high;right;high;none;no;;no;;NA;NA;NA
+control;4;male;3;165;4.59;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;control;6;low;none;left;low;none;no;;no;;NA;NA;NA
+control;4;male;4;165;4.59;White;Bachelor's Degree;Bachelor's Degree;More than $200,000;control;7;high;high;right;high;high;no;;no;;NA;NA;NA
+control;4;male;1;166;4.77;Asian;Some High School;Bachelor's Degree;More than $200,000;Fam_1;1;high;low;right;low;high;NA;;NA;;NA;NA;NA
+control;4;male;2;166;4.77;Asian;Some High School;Bachelor's Degree;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;4;male;3;166;4.77;Asian;Some High School;Bachelor's Degree;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;4;male;1;166;4.77;Asian;Some High School;Bachelor's Degree;More than $200,000;control;4;low;high;left;low;high;no;;no;;NA;NA;NA
+control;4;male;2;166;4.77;Asian;Some High School;Bachelor's Degree;More than $200,000;control;5;none;low;right;low;none;no;;no;;NA;NA;NA
+control;4;male;3;166;4.77;Asian;Some High School;Bachelor's Degree;More than $200,000;control;6;none;none;right;none;none;no;;no;;NA;NA;NA
+control;4;male;4;166;4.77;Asian;Some High School;Bachelor's Degree;More than $200,000;control;7;high;none;left;high;none;no;;no;;NA;NA;NA
+control;4;male;1;167;4.78;Asian,White;Bachelor's Degree;Bachelor's Degree;$101,000 to $120,000;Fam_1;1;high;low;left;high;low;NA;;NA;;NA;NA;NA
+control;4;male;2;167;4.78;Asian,White;Bachelor's Degree;Bachelor's Degree;$101,000 to $120,000;Fam_2;2;none;high;right;high;none;no;;NA;;NA;NA;NA
+control;4;male;3;167;4.78;Asian,White;Bachelor's Degree;Bachelor's Degree;$101,000 to $120,000;Fam_2;3;low;none;left;low;none;no;;NA;;NA;NA;NA
+control;4;male;1;167;4.78;Asian,White;Bachelor's Degree;Bachelor's Degree;$101,000 to $120,000;control;4;low;high;right;high;low;no;;NA;;NA;NA;NA
+control;4;male;2;167;4.78;Asian,White;Bachelor's Degree;Bachelor's Degree;$101,000 to $120,000;control;5;none;low;right;low;none;no;;NA;;NA;NA;NA
+control;4;male;3;167;4.78;Asian,White;Bachelor's Degree;Bachelor's Degree;$101,000 to $120,000;control;6;none;none;left;none;none;yes;;no;;18;same;neutral
+control;4;male;4;167;4.78;Asian,White;Bachelor's Degree;Bachelor's Degree;$101,000 to $120,000;control;7;high;none;left;high;none;no;;NA;;NA;NA;NA
+control;4;female;1;153;4.93;NA;NA;NA;NA;Fam_1;1;low;high;right;high;low;NA;;NA;;NA;NA;NA
+control;4;female;2;153;4.93;NA;NA;NA;NA;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+control;4;female;3;153;4.93;NA;NA;NA;NA;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+control;4;female;1;153;4.93;NA;NA;NA;NA;control;4;low;high;left;low;high;no;;no;;NA;NA;NA
+control;4;female;2;153;4.93;NA;NA;NA;NA;control;5;none;low;left;none;low;no;;no;;NA;NA;NA
+control;4;female;3;153;4.93;NA;NA;NA;NA;control;6;high;none;left;high;none;no;;no;;NA;NA;NA
+control;4;female;4;153;4.93;NA;NA;NA;NA;control;7;low;low;left;low;low;no;;no;;NA;NA;NA
+control;5;male;1;156;5.05;NA;NA;NA;NA;Fam_1;1;low;high;left;low;high;NA;;no;;NA;NA;NA
+control;5;male;2;156;5.05;NA;NA;NA;NA;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+control;5;male;3;156;5.05;NA;NA;NA;NA;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+control;5;male;1;156;5.05;NA;NA;NA;NA;control;4;high;low;left;high;low;no;;no;;NA;NA;NA
+control;5;male;2;156;5.05;NA;NA;NA;NA;control;5;none;high;left;none;high;no;;no;;NA;NA;NA
+control;5;male;3;156;5.05;NA;NA;NA;NA;control;6;low;none;left;low;none;no;;no;;NA;NA;NA
+control;5;male;4;156;5.05;NA;NA;NA;NA;control;7;high;high;right;high;high;no;;no;;NA;NA;NA
+control;5;male;1;160;5.17;Asian;Bachelor's Degree;NA;More than $200,000;Fam_1;1;high;low;right;low;high;NA;;no;;NA;NA;NA
+control;5;male;2;160;5.17;Asian;Bachelor's Degree;NA;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;5;male;3;160;5.17;Asian;Bachelor's Degree;NA;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;5;male;1;160;5.17;Asian;Bachelor's Degree;NA;More than $200,000;control;4;none;low;right;low;none;no;;no;;NA;NA;NA
+control;5;male;2;160;5.17;Asian;Bachelor's Degree;NA;More than $200,000;control;5;high;none;right;none;high;no;;no;;NA;NA;NA
+control;5;male;3;160;5.17;Asian;Bachelor's Degree;NA;More than $200,000;control;6;low;high;right;high;low;no;;no;;NA;NA;NA
+control;5;male;4;160;5.17;Asian;Bachelor's Degree;NA;More than $200,000;control;7;high;high;right;high;high;yes;;no;;6;same;neutral
+control;5;female;1;152;5.22;NA;NA;NA;NA;Fam_1;1;high;low;right;low;high;NA;;no;;NA;NA;NA
+control;5;female;2;152;5.22;NA;NA;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;5;female;3;152;5.22;NA;NA;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;5;female;1;152;5.22;NA;NA;NA;NA;control;4;none;high;right;high;none;no;;no;;NA;NA;NA
+control;5;female;2;152;5.22;NA;NA;NA;NA;control;5;none;none;left;none;none;no;;no;;NA;NA;NA
+control;5;female;3;152;5.22;NA;NA;NA;NA;control;6;high;low;left;high;low;no;;no;;NA;NA;NA
+control;5;female;4;152;5.22;NA;NA;NA;NA;control;7;low;none;left;low;none;no;;no;;NA;NA;NA
+control;5;male;1;147;5.23;White;Master's Degree;NA;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+control;5;male;2;147;5.23;White;Master's Degree;NA;More than $200,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+control;5;male;3;147;5.23;White;Master's Degree;NA;More than $200,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+control;5;male;1;147;5.23;White;Master's Degree;NA;More than $200,000;control;4;high;low;left;high;low;no;;no;;NA;NA;NA
+control;5;male;2;147;5.23;White;Master's Degree;NA;More than $200,000;control;5;none;high;right;high;none;no;;no;;NA;NA;NA
+control;5;male;3;147;5.23;White;Master's Degree;NA;More than $200,000;control;6;low;none;left;low;none;no;;no;;NA;NA;NA
+control;5;male;4;147;5.23;White;Master's Degree;NA;More than $200,000;control;7;high;high;right;high;high;no;;no;;NA;NA;NA
+control;5;female;1;151;5.5;Pacific Islander;NA;NA;NA;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+control;5;female;2;151;5.5;Pacific Islander;NA;NA;NA;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+control;5;female;3;151;5.5;Pacific Islander;NA;NA;NA;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+control;5;female;1;151;5.5;Pacific Islander;NA;NA;NA;control;4;low;low;left;low;low;no;;no;;NA;NA;NA
+control;5;female;2;151;5.5;Pacific Islander;NA;NA;NA;control;5;high;none;left;high;none;no;;no;;NA;NA;NA
+control;5;female;3;151;5.5;Pacific Islander;NA;NA;NA;control;6;low;high;right;high;low;no;;no;;NA;NA;NA
+control;5;female;4;151;5.5;Pacific Islander;NA;NA;NA;control;7;none;low;right;low;none;no;;no;;NA;NA;NA
+control;5;male;1;157;5.55;NA;NA;NA;NA;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+control;5;male;2;157;5.55;NA;NA;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;5;male;3;157;5.55;NA;NA;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;5;male;1;157;5.55;NA;NA;NA;NA;control;4;none;high;right;high;none;no;;no;;NA;NA;NA
+control;5;male;2;157;5.55;NA;NA;NA;NA;control;5;none;none;left;none;none;no;;no;;NA;NA;NA
+control;5;male;3;157;5.55;NA;NA;NA;NA;control;6;high;low;left;high;low;no;;no;;NA;NA;NA
+control;5;male;4;157;5.55;NA;NA;NA;NA;control;7;low;none;left;low;none;no;;no;;NA;NA;NA
+control;5;male;1;154;5.56;NA;NA;NA;NA;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+control;5;male;2;154;5.56;NA;NA;NA;NA;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+control;5;male;3;154;5.56;NA;NA;NA;NA;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+control;5;male;1;154;5.56;NA;NA;NA;NA;control;4;low;low;right;low;low;no;;no;;NA;NA;NA
+control;5;male;2;154;5.56;NA;NA;NA;NA;control;5;high;none;left;high;none;no;;no;;NA;NA;NA
+control;5;male;3;154;5.56;NA;NA;NA;NA;control;6;low;high;left;low;high;no;;no;;NA;NA;NA
+control;5;male;4;154;5.56;NA;NA;NA;NA;control;7;none;low;right;low;none;no;;no;;NA;NA;NA
+control;5;male;1;145;5.72;Asian;Doctorate;Doctorate;$101,000 to $120,000;Fam_1;1;low;high;left;low;high;NA;;no;;NA;NA;NA
+control;5;male;2;145;5.72;Asian;Doctorate;Doctorate;$101,000 to $120,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+control;5;male;3;145;5.72;Asian;Doctorate;Doctorate;$101,000 to $120,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;5;male;1;145;5.72;Asian;Doctorate;Doctorate;$101,000 to $120,000;control;4;low;low;right;low;low;no;;no;;NA;NA;NA
+control;5;male;2;145;5.72;Asian;Doctorate;Doctorate;$101,000 to $120,000;control;5;high;none;left;high;none;no;;no;;NA;NA;NA
+control;5;male;3;145;5.72;Asian;Doctorate;Doctorate;$101,000 to $120,000;control;6;low;high;right;high;low;no;;no;;NA;NA;NA
+control;5;male;4;145;5.72;Asian;Doctorate;Doctorate;$101,000 to $120,000;control;7;none;low;right;low;none;no;;no;;NA;NA;NA
+control;5;female;1;149;5.78;White;Master's Degree;NA;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+control;5;female;2;149;5.78;White;Master's Degree;NA;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;5;female;3;149;5.78;White;Master's Degree;NA;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;5;female;1;149;5.78;White;Master's Degree;NA;More than $200,000;control;4;none;high;right;high;none;no;;no;;NA;NA;NA
+control;5;female;2;149;5.78;White;Master's Degree;NA;More than $200,000;control;5;none;none;left;none;none;no;;no;;NA;NA;NA
+control;5;female;3;149;5.78;White;Master's Degree;NA;More than $200,000;control;6;high;low;left;high;low;no;;no;;NA;NA;NA
+control;5;female;4;149;5.78;White;Master's Degree;NA;More than $200,000;control;7;low;none;left;low;none;no;;no;;NA;NA;NA
+control;5;female;1;148;5.91;Asian-American;Bachelor's Degree;NA;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+control;5;female;2;148;5.91;Asian-American;Bachelor's Degree;NA;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+control;5;female;3;148;5.91;Asian-American;Bachelor's Degree;NA;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+control;5;female;1;148;5.91;Asian-American;Bachelor's Degree;NA;More than $200,000;control;4;low;high;left;low;high;no;;no;;NA;NA;NA
+control;5;female;2;148;5.91;Asian-American;Bachelor's Degree;NA;More than $200,000;control;5;none;low;right;low;none;no;;no;;NA;NA;NA
+control;5;female;3;148;5.91;Asian-American;Bachelor's Degree;NA;More than $200,000;control;6;none;none;right;none;none;no;;no;;NA;NA;NA
+control;5;female;4;148;5.91;Asian-American;Bachelor's Degree;NA;More than $200,000;control;7;high;none;left;high;none;no;;no;;NA;NA;NA
+control;5;female;1;158;5.94;NA;NA;NA;NA;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+control;5;female;2;158;5.94;NA;NA;NA;NA;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+control;5;female;3;158;5.94;NA;NA;NA;NA;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+control;5;female;1;158;5.94;NA;NA;NA;NA;control;4;low;high;left;low;high;no;;no;;NA;NA;NA
+control;5;female;2;158;5.94;NA;NA;NA;NA;control;5;none;low;right;low;none;no;;no;;NA;NA;NA
+control;5;female;3;158;5.94;NA;NA;NA;NA;control;6;high;none;left;high;none;no;;no;;NA;NA;NA
+control;5;female;4;158;5.94;NA;NA;NA;NA;control;7;low;low;right;low;low;no;;no;;NA;NA;NA
+control;5;female;1;159;5.98;White;NA;NA;NA;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+control;5;female;2;159;5.98;White;NA;NA;NA;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+control;5;female;3;159;5.98;White;NA;NA;NA;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+control;5;female;1;159;5.98;White;NA;NA;NA;control;4;low;low;right;low;low;no;;no;;NA;NA;NA
+control;5;female;2;159;5.98;White;NA;NA;NA;control;5;high;none;left;high;none;no;;no;;NA;NA;NA
+control;5;female;3;159;5.98;White;NA;NA;NA;control;6;low;high;right;high;low;no;;no;;NA;NA;NA
+control;5;female;4;159;5.98;White;NA;NA;NA;control;7;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;2;female;1;239;2.23;White;Doctorate;NA;NA;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;2;female;2;239;2.23;White;Doctorate;NA;NA;Fam_2;2;high;none;left;high;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;female;3;239;2.23;White;Doctorate;NA;NA;Fam_2;3;none;low;left;none;low;no;no;no;NA;NA;NA;NA
+no.choice;2;female;1;239;2.23;White;Doctorate;NA;NA;no.choice;1;high;low;left;high;low;no;no;no;NA;NA;NA;NA
+no.choice;2;female;2;239;2.23;White;Doctorate;NA;NA;no.choice;2;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+no.choice;2;female;3;239;2.23;White;Doctorate;NA;NA;no.choice;3;low;none;left;low;none;no;no;no;NA;NA;NA;NA
+no.choice;2;female;4;239;2.23;White;Doctorate;NA;NA;no.choice;4;high;high;right;high;high;no;no;no;NA;NA;NA;NA
+no.choice;2;female;1;225;2.35;Asian;Doctorate;Doctorate;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;2;female;2;225;2.35;Asian;Doctorate;Doctorate;More than $200,000;Fam_2;2;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+no.choice;2;female;3;225;2.35;Asian;Doctorate;Doctorate;More than $200,000;Fam_2;3;low;none;left;low;none;no;no;no;NA;NA;NA;NA
+no.choice;2;female;1;225;2.35;Asian;Doctorate;Doctorate;More than $200,000;no.choice;1;low;high;right;high;low;no;no;no;NA;NA;NA;NA
+no.choice;2;female;2;225;2.35;Asian;Doctorate;Doctorate;More than $200,000;no.choice;2;none;low;right;low;none;no;no;no;NA;NA;NA;NA
+no.choice;2;female;3;225;2.35;Asian;Doctorate;Doctorate;More than $200,000;no.choice;3;none;none;left;none;none;no;no;no;NA;NA;NA;NA
+no.choice;2;female;4;225;2.35;Asian;Doctorate;Doctorate;More than $200,000;no.choice;4;high;none;left;high;none;no;no;no;NA;NA;NA;NA
+no.choice;2;female;1;227;2.53;Asian;Some Highschool;Bachelor's Degree;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;2;female;2;227;2.53;Asian;Some Highschool;Bachelor's Degree;More than $200,000;Fam_2;2;high;none;left;high;none;no;no;no;NA;NA;NA;NA
+no.choice;2;female;3;227;2.53;Asian;Some Highschool;Bachelor's Degree;More than $200,000;Fam_2;3;none;low;right;low;none;no;no;no;NA;NA;NA;NA
+no.choice;2;female;1;227;2.53;Asian;Some Highschool;Bachelor's Degree;More than $200,000;no.choice;1;low;high;left;low;high;no;no;no;NA;NA;NA;NA
+no.choice;2;female;2;227;2.53;Asian;Some Highschool;Bachelor's Degree;More than $200,000;no.choice;2;none;low;left;none;low;no;no;no;NA;NA;NA;NA
+no.choice;2;female;3;227;2.53;Asian;Some Highschool;Bachelor's Degree;More than $200,000;no.choice;3;high;none;right;none;high;no;no;no;NA;NA;NA;NA
+no.choice;2;female;4;227;2.53;Asian;Some Highschool;Bachelor's Degree;More than $200,000;no.choice;4;low;low;right;low;low;no;no;no;NA;NA;NA;NA
+no.choice;2;female;1;234;2.54;NA;NA;NA;NA;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;2;female;2;234;2.54;NA;NA;NA;NA;Fam_2;2;none;high;right;high;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;female;3;234;2.54;NA;NA;NA;NA;Fam_2;3;low;none;left;low;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;female;1;234;2.54;NA;NA;NA;NA;no.choice;1;none;low;right;low;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;female;2;234;2.54;NA;NA;NA;NA;no.choice;2;high;none;left;high;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;female;3;234;2.54;NA;NA;NA;NA;no.choice;3;none;none;right;none;none ;no;no;no;NA;NA;NA;negative
+no.choice;2;female;4;234;2.54;NA;NA;NA;NA;no.choice;4;high;none;right;none;high;no;no;no;NA;NA;NA;neutral
+no.choice;2;male;1;235;2.55;White;NA;Some Highschool;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;2;male;2;235;2.55;White;NA;Some Highschool;More than $200,000;Fam_2;2;high;none;right;high;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;male;3;235;2.55;White;NA;Some Highschool;More than $200,000;Fam_2;3;none;low;right;low;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;male;1;235;2.55;White;NA;Some Highschool;More than $200,000;no.choice;1;low;low;right;low;low;yes;yes;no;7;4;same;neutral
+no.choice;2;male;2;235;2.55;White;NA;Some Highschool;More than $200,000;no.choice;2;high;none;right;high;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;male;3;235;2.55;White;NA;Some Highschool;More than $200,000;no.choice;3;low;high;right;high;low;yes;yes;yes;6;6;worse;negative
+no.choice;2;male;4;235;2.55;White;NA;Some Highschool;More than $200,000;no.choice;4;none;low;right;low;none ;yes;yes;no;2;2;worse;neutral
+no.choice;2;male;1;244;2.55;White, African or African American;Other: Medical Degree;NA;More than $200,000;Fam_1;1;high;low;left;low;high;NA;;no;;NA;NA;NA
+no.choice;2;male;2;244;2.55;White, African or African American;Other: Medical Degree;NA;More than $200,000;Fam_2;2;none;high;right;high;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;male;3;244;2.55;White, African or African American;Other: Medical Degree;NA;More than $200,000;Fam_2;3;low;none;left;low;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;male;1;244;2.55;White, African or African American;Other: Medical Degree;NA;More than $200,000;no.choice;1;none;low;left;none;low;yes;yes;yes;13;11;better;neutral
+no.choice;2;male;2;244;2.55;White, African or African American;Other: Medical Degree;NA;More than $200,000;no.choice;2;high;none;left;high;none ;no;no;no;4;NA;NA;NA
+no.choice;2;male;3;244;2.55;White, African or African American;Other: Medical Degree;NA;More than $200,000;no.choice;3;none;none;right;none;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;male;4;244;2.55;White, African or African American;Other: Medical Degree;NA;More than $200,000;no.choice;4;high;none;right;none;high;no;no;no;NA;NA;NA;NA
+no.choice;2;male;1;245;2.58;White;Master's Degree;NA;$41,000 to $60,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;2;male;2;245;2.58;White;Master's Degree;NA;$41,000 to $60,000;Fam_2;2;none;high;right;high;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;male;3;245;2.58;White;Master's Degree;NA;$41,000 to $60,000;Fam_2;3;low;none;left;low;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;male;1;245;2.58;White;Master's Degree;NA;$41,000 to $60,000;no.choice;1;none;low;left;none;low;no;no;no;NA;NA;NA;NA
+no.choice;2;male;2;245;2.58;White;Master's Degree;NA;$41,000 to $60,000;no.choice;2;high;low;right;low;high;no;no;no;NA;NA;NA;NA
+no.choice;2;male;3;245;2.58;White;Master's Degree;NA;$41,000 to $60,000;no.choice;3;low;high;left;low;high;yes;yes;no;14;17;better;neutral
+no.choice;2;male;4;245;2.58;White;Master's Degree;NA;$41,000 to $60,000;no.choice;4;high;high;right;high;high;no;no;no;NA;NA;NA;NA
+no.choice;2;female;1;240;2.61;White;Master's Degree;NA;$101,000 to $120,000;Fam_1;1;high;low;left;high;low;no;;no;;NA;NA;NA
+no.choice;2;female;2;240;2.61;White;Master's Degree;NA;$101,000 to $120,000;Fam_2;2;none;high;right;high;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;female;3;240;2.61;White;Master's Degree;NA;$101,000 to $120,000;Fam_2;3;low;none;left;low;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;female;1;240;2.61;White;Master's Degree;NA;$101,000 to $120,000;no.choice;1;none;high;right ;high;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;female;2;240;2.61;White;Master's Degree;NA;$101,000 to $120,000;no.choice;2;none;none;right ;none;none ;yes;yes;yes;4;5;same;neutral
+no.choice;2;female;3;240;2.61;White;Master's Degree;NA;$101,000 to $120,000;no.choice;3;high;low;left;high;low;no;no;no;NA;NA;NA;NA
+no.choice;2;female;4;240;2.61;White;Master's Degree;NA;$101,000 to $120,000;no.choice;4;low;none;left;low;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;male;1;233;2.68;Asian, White;Master's Degree;Bachelor's Degree;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;2;male;2;233;2.68;Asian, White;Master's Degree;Bachelor's Degree;More than $200,000;Fam_2;2;none;high;right;high;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;male;3;233;2.68;Asian, White;Master's Degree;Bachelor's Degree;More than $200,000;Fam_2;3;none;low;right;low;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;male;1;233;2.68;Asian, White;Master's Degree;Bachelor's Degree;More than $200,000;no.choice;1;none;high;left;none;high;yes;yes;yes;14;9;better;negative
+no.choice;2;male;2;233;2.68;Asian, White;Master's Degree;Bachelor's Degree;More than $200,000;no.choice;2;high;low;right;low;high;no;no;no;NA;NA;NA;NA
+no.choice;2;male;3;233;2.68;Asian, White;Master's Degree;Bachelor's Degree;More than $200,000;no.choice;3;none;none;left;none;none ;no;yes;yes;9;NA;NA;NA
+no.choice;2;male;4;233;2.68;Asian, White;Master's Degree;Bachelor's Degree;More than $200,000;no.choice;4;low;low;right;low;low;no;no;no;NA;NA;NA;NA
+no.choice;2;female;1;241;2.73;Asian;Doctorate;NA;NA;Fam_1;1;low;high;right ;high;low;no;;no;;NA;NA;NA
+no.choice;2;female;2;241;2.73;Asian;Doctorate;NA;NA;Fam_2;2;high;none;left;high;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;female;3;241;2.73;Asian;Doctorate;NA;NA;Fam_2;3;none;low;right ;low;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;female;1;241;2.73;Asian;Doctorate;NA;NA;no.choice;1;low;high;right ;high;low;no;no;yes;NA;NA;NA;NA
+no.choice;2;female;2;241;2.73;Asian;Doctorate;NA;NA;no.choice;2;none;low;left;none;low;no;no;yes;NA;NA;NA;NA
+no.choice;2;female;3;241;2.73;Asian;Doctorate;NA;NA;no.choice;3;high;none;right ;none;high;no;no;yes;NA;NA;NA;NA
+no.choice;2;female;4;241;2.73;Asian;Doctorate;NA;NA;no.choice;4;low;low;left;low;low;no;no;no;NA;NA;NA;NA
+no.choice;2;male;1;237;2.87;Other;Master's Degree;NA;$101,000 to $120,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;2;male;2;237;2.87;Other;Master's Degree;NA;$101,000 to $120,000;Fam_2;2;none;high;right;high;none;no;no;no;NA;NA;NA;NA
+no.choice;2;male;3;237;2.87;Other;Master's Degree;NA;$101,000 to $120,000;Fam_2;3;low;none;left;low;none;no;no;no;NA;NA;NA;NA
+no.choice;2;male;1;237;2.87;Other;Master's Degree;NA;$101,000 to $120,000;no.choice;4;low;high;right;high;low;no;no;no;NA;NA;NA;NA
+no.choice;2;male;2;237;2.87;Other;Master's Degree;NA;$101,000 to $120,000;no.choice;2;none;low;left;none;low;yes;yes;no;11;10;better;neutral
+no.choice;2;male;3;237;2.87;Other;Master's Degree;NA;$101,000 to $120,000;no.choice;3;none;none;right;none;none;yes;yes;no;20;17;same;neutral
+no.choice;2;male;4;237;2.87;Other;Master's Degree;NA;$101,000 to $120,000;no.choice;4;high;none;left;high;none;no;no;no;NA;NA;NA;NA
+no.choice;2;female;1;236;2.96;White;Master's Degree;NA;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;2;female;2;236;2.96;White;Master's Degree;NA;More than $200,000;Fam_2;2;none;high;right;high;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;female;3;236;2.96;White;Master's Degree;NA;More than $200,000;Fam_2;3;low;none;left;low;none ;no;no;no;NA;NA;NA;NA
+no.choice;2;female;1;236;2.96;White;Master's Degree;NA;More than $200,000;no.choice;1;none;high;left;none;high;yes;yes;yes;12;15;better;negative
+no.choice;2;female;2;236;2.96;White;Master's Degree;NA;More than $200,000;no.choice;2;none;none;left;none;none;no;no;yes;13;NA;NA;negative
+no.choice;2;female;3;236;2.96;White;Master's Degree;NA;More than $200,000;no.choice;3;high;low;right;low;high;yes;yes;yes;30;30;better;negative
+no.choice;2;female;4;236;2.96;White;Master's Degree;NA;More than $200,000;no.choice;4;low;none;right;none;low;yes;yes;yes;6;5;better;negative
+no.choice;3;female;1;231;3.22;Hispanic or Latino,Asian;Bachelor's Degree;Highschool Diploma;$81,000 to $100,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;3;female;2;231;3.22;Hispanic or Latino,Asian;Bachelor's Degree;Highschool Diploma;$81,000 to $100,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;3;female;3;231;3.22;Hispanic or Latino,Asian;Bachelor's Degree;Highschool Diploma;$81,000 to $100,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;3;female;1;231;3.22;Hispanic or Latino,Asian;Bachelor's Degree;Highschool Diploma;$81,000 to $100,000;no.choice;1;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;3;female;2;231;3.22;Hispanic or Latino,Asian;Bachelor's Degree;Highschool Diploma;$81,000 to $100,000;no.choice;2;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;3;female;3;231;3.22;Hispanic or Latino,Asian;Bachelor's Degree;Highschool Diploma;$81,000 to $100,000;no.choice;3;high;low;right;low;high;yes;;no;;5;better;neutral
+no.choice;3;female;4;231;3.22;Hispanic or Latino,Asian;Bachelor's Degree;Highschool Diploma;$81,000 to $100,000;no.choice;4;high;high;right;high;high;no;;no;;NA;NA;NA
+no.choice;3;female;1;198;3.31;White;Bachelor's Degree;NA;NA;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;3;female;2;198;3.31;White;Bachelor's Degree;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;3;female;3;198;3.31;White;Bachelor's Degree;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;3;female;1;198;3.31;White;Bachelor's Degree;NA;NA;no.choice;1;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;3;female;2;198;3.31;White;Bachelor's Degree;NA;NA;no.choice;2;none;none;right;none;none;no;;no;;NA;NA;NA
+no.choice;3;female;3;198;3.31;White;Bachelor's Degree;NA;NA;no.choice;3;high;low;right;low;high;yes;;no;;10;better;neutral
+no.choice;3;female;4;198;3.31;White;Bachelor's Degree;NA;NA;no.choice;4;low;none;right;none;low;no;;no;;NA;NA;NA
+no.choice;3;female;1;224;3.34;Other (Afghan);Bachelor's Degree;NA;$141,000 to $160,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;3;female;2;224;3.34;Other (Afghan);Bachelor's Degree;NA;$141,000 to $160,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;3;female;3;224;3.34;Other (Afghan);Bachelor's Degree;NA;$141,000 to $160,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;3;female;1;224;3.34;Other (Afghan);Bachelor's Degree;NA;$141,000 to $160,000;no.choice;1;low;low;left;low;low;no;;no;;NA;NA;NA
+no.choice;3;female;2;224;3.34;Other (Afghan);Bachelor's Degree;NA;$141,000 to $160,000;no.choice;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;3;female;3;224;3.34;Other (Afghan);Bachelor's Degree;NA;$141,000 to $160,000;no.choice;3;low;high;left;low;high;no;;no;;NA;NA;NA
+no.choice;3;female;4;224;3.34;Other (Afghan);Bachelor's Degree;NA;$141,000 to $160,000;no.choice;4;none;low;left;none;low;no;;no;;NA;NA;NA
+no.choice;3;male;1;192;3.42;Hispanic or Latino;Some College;NA;$81,000 to $100,000;Fam_1;1;high;low;right;low;high;NA;;no;;NA;NA;NA
+no.choice;3;male;2;192;3.42;Hispanic or Latino;Some College;NA;$81,000 to $100,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;3;male;3;192;3.42;Hispanic or Latino;Some College;NA;$81,000 to $100,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;3;male;1;192;3.42;Hispanic or Latino;Some College;NA;$81,000 to $100,000;no.choice;4;low;high;left;low;high;no;;no;;NA;NA;NA
+no.choice;3;male;2;192;3.42;Hispanic or Latino;Some College;NA;$81,000 to $100,000;no.choice;5;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;3;male;3;192;3.42;Hispanic or Latino;Some College;NA;$81,000 to $100,000;no.choice;6;none;none;left;none;none;no;;no;;NA;NA;NA
+no.choice;3;male;4;192;3.42;Hispanic or Latino;Some College;NA;$81,000 to $100,000;no.choice;7;high;none;right;none;high;no;;no;;NA;NA;NA
+no.choice;3;male;1;219;3.58;White;Bachelor's Degree;NA;$141,000 to $160,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;3;male;2;219;3.58;White;Bachelor's Degree;NA;$141,000 to $160,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;3;male;3;219;3.58;White;Bachelor's Degree;NA;$141,000 to $160,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;3;male;1;219;3.58;White;Bachelor's Degree;NA;$141,000 to $160,000;no.choice;1;high;low;left;high;low;no;;no;;NA;NA;NA
+no.choice;3;male;2;219;3.58;White;Bachelor's Degree;NA;$141,000 to $160,000;no.choice;2;none;high;left;none;high;yes;;yes;;8;better;negative
+no.choice;3;male;3;219;3.58;White;Bachelor's Degree;NA;$141,000 to $160,000;no.choice;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;3;male;4;219;3.58;White;Bachelor's Degree;NA;$141,000 to $160,000;no.choice;4;high;high;right;high;high;no;;no;;NA;NA;NA
+no.choice;3;male;1;208;3.6;White;Master's Degree;Master's Degree;More than $200,000;Fam_1;1;high;low;right;low;high;NA;;no;;NA;NA;NA
+no.choice;3;male;2;208;3.6;White;Master's Degree;Master's Degree;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;3;male;3;208;3.6;White;Master's Degree;Master's Degree;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;3;male;1;208;3.6;White;Master's Degree;Master's Degree;More than $200,000;no.choice;1;none;high;right;high;none;yes;;no;;NA;NA;NA
+no.choice;3;male;2;208;3.6;White;Master's Degree;Master's Degree;More than $200,000;no.choice;2;none;none;right;none;none;yes;;no;;6;same;negative
+no.choice;3;male;3;208;3.6;White;Master's Degree;Master's Degree;More than $200,000;no.choice;3;high;low;left;high;low;yes;;no;;6;worse;neutral
+no.choice;3;male;4;208;3.6;White;Master's Degree;Master's Degree;More than $200,000;no.choice;4;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;3;female;1;211;3.61;Asian;Doctorate;NA;$121,000 to $140,000;Fam_1;1;low;high;left;low;high;NA;;maybe;;4;better;neutral
+no.choice;3;female;2;211;3.61;Asian;Doctorate;NA;$121,000 to $140,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;3;female;3;211;3.61;Asian;Doctorate;NA;$121,000 to $140,000;Fam_2;3;none;low;right;low;none;yes;;no;;3;worse;NA
+no.choice;3;female;1;211;3.61;Asian;Doctorate;NA;$121,000 to $140,000;no.choice;1;low;high;left;low;high;no;;no;;NA;NA;NA
+no.choice;3;female;2;211;3.61;Asian;Doctorate;NA;$121,000 to $140,000;no.choice;2;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;3;female;3;211;3.61;Asian;Doctorate;NA;$121,000 to $140,000;no.choice;3;high;none;right;none;high;no;;maybe;;NA;NA;NA
+no.choice;3;female;4;211;3.61;Asian;Doctorate;NA;$121,000 to $140,000;no.choice;4;low;low;right;low;low;no;;no;;NA;NA;NA
+no.choice;3;female;1;229;3.75;White;Doctorate;NA;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;3;female;2;229;3.75;White;Doctorate;NA;More than $200,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;3;female;3;229;3.75;White;Doctorate;NA;More than $200,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;3;female;1;229;3.75;White;Doctorate;NA;More than $200,000;no.choice;1;low;low;left;low;low;no;;no;;NA;NA;NA
+no.choice;3;female;2;229;3.75;White;Doctorate;NA;More than $200,000;no.choice;2;high;none;right;none;high;yes;;yes;;30;better;neutral
+no.choice;3;female;3;229;3.75;White;Doctorate;NA;More than $200,000;no.choice;3;low;high;left;low;high;no;;no;;NA;NA;NA
+no.choice;3;female;4;229;3.75;White;Doctorate;NA;More than $200,000;no.choice;4;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;3;female;1;202;3.75;African or African American;Master's Degree;Bachelor's Degree;$161,000 to $180,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;3;female;2;202;3.75;African or African American;Master's Degree;Bachelor's Degree;$161,000 to $180,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;3;female;3;202;3.75;African or African American;Master's Degree;Bachelor's Degree;$161,000 to $180,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;3;female;1;202;3.75;African or African American;Master's Degree;Bachelor's Degree;$161,000 to $180,000;no.choice;1;low;low;left;low;low;no;;no;;NA;NA;NA
+no.choice;3;female;2;202;3.75;African or African American;Master's Degree;Bachelor's Degree;$161,000 to $180,000;no.choice;2;high;none;right;none;high;yes;;yes;;3;better;negative
+no.choice;3;female;3;202;3.75;African or African American;Master's Degree;Bachelor's Degree;$161,000 to $180,000;no.choice;3;low;high;right;high;low;no;;no;;NA;NA;NA
+no.choice;3;female;4;202;3.75;African or African American;Master's Degree;Bachelor's Degree;$161,000 to $180,000;no.choice;4;none;low;left;none;low;no;;no;;;NA;NA
+no.choice;3;male;1;215;3.83;African or African American,White;Bachelor's Degree;NA;$61,000 to 80,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;3;male;2;215;3.83;African or African American,White;Bachelor's Degree;NA;$61,000 to 80,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;3;male;3;215;3.83;African or African American,White;Bachelor's Degree;NA;$61,000 to 80,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;3;male;1;215;3.83;African or African American,White;Bachelor's Degree;NA;$61,000 to 80,000;no.choice;1;low;high;right;high;low;no;;no;;NA;NA;NA
+no.choice;3;male;2;215;3.83;African or African American,White;Bachelor's Degree;NA;$61,000 to 80,000;no.choice;2;none;low;left;none;low;no;;yes;;NA;NA;NA
+no.choice;3;male;3;215;3.83;African or African American,White;Bachelor's Degree;NA;$61,000 to 80,000;no.choice;3;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;3;male;4;215;3.83;African or African American,White;Bachelor's Degree;NA;$61,000 to 80,000;no.choice;4;low;low;right;low;low;no;;no;;NA;NA;NA
+no.choice;3;female;1;204;3.86;Hispanic or Latino,White;Some College;Some College;$141,000 to $160,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;3;female;2;204;3.86;Hispanic or Latino,White;Some College;Some College;$141,000 to $160,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;3;female;3;204;3.86;Hispanic or Latino,White;Some College;Some College;$141,000 to $160,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;3;female;1;204;3.86;Hispanic or Latino,White;Some College;Some College;$141,000 to $160,000;no.choice;1;high;low;left;high;low;no;;no;;NA;NA;NA
+no.choice;3;female;2;204;3.86;Hispanic or Latino,White;Some College;Some College;$141,000 to $160,000;no.choice;2;none;high;left;none;high;yes;;yes;;4;better;negative
+no.choice;3;female;3;204;3.86;Hispanic or Latino,White;Some College;Some College;$141,000 to $160,000;no.choice;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;3;female;4;204;3.86;Hispanic or Latino,White;Some College;Some College;$141,000 to $160,000;no.choice;4;high;high;right;high;high;no;;no;;NA;NA;NA
+no.choice;3;male;1;228;3.99;Asian;Some High School;Doctorate;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;3;male;2;228;3.99;Asian;Some High School;Doctorate;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;3;male;3;228;3.99;Asian;Some High School;Doctorate;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;3;male;1;228;3.99;Asian;Some High School;Doctorate;More than $200,000;no.choice;1;none;low;right;low;none;yes;;no;;7;worse;negative
+no.choice;3;male;2;228;3.99;Asian;Some High School;Doctorate;More than $200,000;no.choice;2;high;none;left;high;none;yes;;no;;9;worse;neutral
+no.choice;3;male;3;228;3.99;Asian;Some High School;Doctorate;More than $200,000;no.choice;3;low;high;right;high;low;no;;no;;NA;NA;NA
+no.choice;3;male;4;228;3.99;Asian;Some High School;Doctorate;More than $200,000;no.choice;4;high;high;left;high;high;yes;;yes;;8;same;positive
+no.choice;4;female;1;201;4.03;Asian,White;Bachelor's Degree;NA;More than $200,000;Fam_1;1;high;low;right;low;high;NA;;no;;NA;NA;NA
+no.choice;4;female;2;201;4.03;Asian,White;Bachelor's Degree;NA;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;4;female;3;201;4.03;Asian,White;Bachelor's Degree;NA;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;4;female;1;201;4.03;Asian,White;Bachelor's Degree;NA;More than $200,000;no.choice;1;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;4;female;2;201;4.03;Asian,White;Bachelor's Degree;NA;More than $200,000;no.choice;2;none;none;left;none;none;no;;no;;NA;NA;NA
+no.choice;4;female;3;201;4.03;Asian,White;Bachelor's Degree;NA;More than $200,000;no.choice;3;high;low;right;low;high;no;;no;;NA;NA;NA
+no.choice;4;female;4;201;4.03;Asian,White;Bachelor's Degree;NA;More than $200,000;no.choice;4;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;4;female;1;209;4.2;Asian;Master's Degree;Doctorate;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;4;female;2;209;4.2;Asian;Master's Degree;Doctorate;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;4;female;3;209;4.2;Asian;Master's Degree;Doctorate;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;4;female;1;209;4.2;Asian;Master's Degree;Doctorate;More than $200,000;no.choice;1;low;high;left;low;high;no;;no;;NA;NA;NA
+no.choice;4;female;2;209;4.2;Asian;Master's Degree;Doctorate;More than $200,000;no.choice;2;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;4;female;3;209;4.2;Asian;Master's Degree;Doctorate;More than $200,000;no.choice;3;none;none;right;none;none;no;;no;;NA;NA;NA
+no.choice;4;female;4;209;4.2;Asian;Master's Degree;Doctorate;More than $200,000;no.choice;4;high;none;right;none;high;no;;no;;NA;NA;NA
+no.choice;4;male;1;199;4.22;African or African American;Bachelor's Degree;Master's Degree;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;4;male;2;199;4.22;African or African American;Bachelor's Degree;Master's Degree;More than $200,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;4;male;3;199;4.22;African or African American;Bachelor's Degree;Master's Degree;More than $200,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;4;male;1;199;4.22;African or African American;Bachelor's Degree;Master's Degree;More than $200,000;no.choice;1;low;high;right;high;low;yes;;yes;;10;worse;negative
+no.choice;4;male;2;199;4.22;African or African American;Bachelor's Degree;Master's Degree;More than $200,000;no.choice;2;none;low;right;low;none;yes;;no;;6;worse;neutral
+no.choice;4;male;3;199;4.22;African or African American;Bachelor's Degree;Master's Degree;More than $200,000;no.choice;3;high;none;right;none;high;yes;;yes;;4;better;negative
+no.choice;4;male;4;199;4.22;African or African American;Bachelor's Degree;Master's Degree;More than $200,000;no.choice;4;low;low;left;low;low;yes;;yes;;3;same;surprised
+no.choice;4;male;1;218;4.27;Asian,White;Master's Degree;NA;$101,000 to $120,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;4;male;2;218;4.27;Asian,White;Master's Degree;NA;$101,000 to $120,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;4;male;3;218;4.27;Asian,White;Master's Degree;NA;$101,000 to $120,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;4;male;1;218;4.27;Asian,White;Master's Degree;NA;$101,000 to $120,000;no.choice;1;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;4;male;2;218;4.27;Asian,White;Master's Degree;NA;$101,000 to $120,000;no.choice;2;none;none;left;none;none;no;;no;;NA;NA;NA
+no.choice;4;male;3;218;4.27;Asian,White;Master's Degree;NA;$101,000 to $120,000;no.choice;3;high;low;right;low;high;no;;no;;NA;NA;NA
+no.choice;4;male;4;218;4.27;Asian,White;Master's Degree;NA;$101,000 to $120,000;no.choice;4;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;4;female;1;214;4.32;Hispanic or Latino,White;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;4;female;2;214;4.32;Hispanic or Latino,White;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;4;female;3;214;4.32;Hispanic or Latino,White;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;4;female;1;214;4.32;Hispanic or Latino,White;Bachelor's Degree;Bachelor's Degree;More than $200,000;no.choice;1;low;high;left;low;high;no;;no;;NA;NA;NA
+no.choice;4;female;2;214;4.32;Hispanic or Latino,White;Bachelor's Degree;Bachelor's Degree;More than $200,000;no.choice;2;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;4;female;3;214;4.32;Hispanic or Latino,White;Bachelor's Degree;Bachelor's Degree;More than $200,000;no.choice;3;none;none;left;none;none;no;;no;;NA;NA;NA
+no.choice;4;female;4;214;4.32;Hispanic or Latino,White;Bachelor's Degree;Bachelor's Degree;More than $200,000;no.choice;4;high;none;right;none;high;no;;no;;NA;NA;NA
+no.choice;4;male;1;222;4.36;White;Bachelor's Degree;Master's Degree;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;4;male;2;222;4.36;White;Bachelor's Degree;Master's Degree;More than $200,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;4;male;3;222;4.36;White;Bachelor's Degree;Master's Degree;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;4;male;1;222;4.36;White;Bachelor's Degree;Master's Degree;More than $200,000;no.choice;1;none;low;left;none;low;no;;no;;NA;NA;NA
+no.choice;4;male;2;222;4.36;White;Bachelor's Degree;Master's Degree;More than $200,000;no.choice;2;high;none;right;none;high;no;;no;;NA;NA;NA
+no.choice;4;male;3;222;4.36;White;Bachelor's Degree;Master's Degree;More than $200,000;no.choice;3;low;high;left;low;high;no;;no;;NA;NA;NA
+no.choice;4;male;4;222;4.36;White;Bachelor's Degree;Master's Degree;More than $200,000;no.choice;4;high;high;left;high;high;no;;no;;NA;NA;NA
+no.choice;4;male;1;223;4.49;White;Some College;Master's Degree;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;4;male;2;223;4.49;White;Some College;Master's Degree;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;4;male;3;223;4.49;White;Some College;Master's Degree;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;4;male;1;223;4.49;White;Some College;Master's Degree;More than $200,000;no.choice;1;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;4;male;2;223;4.49;White;Some College;Master's Degree;More than $200,000;no.choice;2;high;none;right;none;high;no;;yes;;NA;NA;NA
+no.choice;4;male;3;223;4.49;White;Some College;Master's Degree;More than $200,000;no.choice;3;low;high;right;high;low;no;;no;;NA;NA;NA
+no.choice;4;male;4;223;4.49;White;Some College;Master's Degree;More than $200,000;no.choice;4;high;high;left;high;high;no;;no;;NA;NA;NA
+no.choice;4;male;1;195;4.52;Asian;Highschool diploma;NA;$41,000 to $60,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;4;male;2;195;4.52;Asian;Highschool diploma;NA;$41,000 to $60,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;4;male;3;195;4.52;Asian;Highschool diploma;NA;$41,000 to $60,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;4;male;1;195;4.52;Asian;Highschool diploma;NA;$41,000 to $60,000;no.choice;1;none;high;left;none;high;no;;no;;NA;NA;NA
+no.choice;4;male;2;195;4.52;Asian;Highschool diploma;NA;$41,000 to $60,000;no.choice;2;none;none;right;none;none;no;;no;;NA;NA;NA
+no.choice;4;male;3;195;4.52;Asian;Highschool diploma;NA;$41,000 to $60,000;no.choice;3;high;low;right;low;high;no;;no;;NA;NA;NA
+no.choice;4;male;4;195;4.52;Asian;Highschool diploma;NA;$41,000 to $60,000;no.choice;4;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;4;male;1;200;4.66;Asian;NA;NA;NA;Fam_1;1;high;low;right;low;high;NA;;no;;NA;NA;NA
+no.choice;4;male;2;200;4.66;Asian;NA;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;4;male;3;200;4.66;Asian;NA;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;4;male;1;200;4.66;Asian;NA;NA;NA;no.choice;1;low;high;right;high;low;no;;no;;NA;NA;NA
+no.choice;4;male;2;200;4.66;Asian;NA;NA;NA;no.choice;2;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;4;male;3;200;4.66;Asian;NA;NA;NA;no.choice;3;none;none;right;none;none;no;;no;;NA;NA;NA
+no.choice;4;male;4;200;4.66;Asian;NA;NA;NA;no.choice;4;high;none;right;none;high;no;;no;;NA;NA;NA
+no.choice;4;female;1;193;4.81;White;Doctorate;NA;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;4;female;2;193;4.81;White;Doctorate;NA;More than $200,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;4;female;3;193;4.81;White;Doctorate;NA;More than $200,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;4;female;1;193;4.81;White;Doctorate;NA;More than $200,000;no.choice;1;low;high;left;low;high;no;;no;;NA;NA;NA
+no.choice;4;female;2;193;4.81;White;Doctorate;NA;More than $200,000;no.choice;2;none;low;left;none;low;no;;no;;NA;NA;NA
+no.choice;4;female;3;193;4.81;White;Doctorate;NA;More than $200,000;no.choice;3;high;none;right;none;high;no;;no;;NA;NA;NA
+no.choice;4;female;4;193;4.81;White;Doctorate;NA;More than $200,000;no.choice;4;low;low;left;low;low;no;;no;;NA;NA;NA
+no.choice;4;male;1;220;4.84;Hispanic or Latino,Pacific Islander;Some College;NA;$81,000 to $100,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;4;male;2;220;4.84;Hispanic or Latino,Pacific Islander;Some College;NA;$81,000 to $100,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;4;male;3;220;4.84;Hispanic or Latino,Pacific Islander;Some College;NA;$81,000 to $100,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;4;male;1;220;4.84;Hispanic or Latino,Pacific Islander;Some College;NA;$81,000 to $100,000;no.choice;1;low;low;left;low;low;no;;no;;NA;NA;NA
+no.choice;4;male;2;220;4.84;Hispanic or Latino,Pacific Islander;Some College;NA;$81,000 to $100,000;no.choice;2;high;none;right;none;high;no;;no;;NA;NA;NA
+no.choice;4;male;3;220;4.84;Hispanic or Latino,Pacific Islander;Some College;NA;$81,000 to $100,000;no.choice;3;low;high;left;low;high;no;;no;;NA;NA;NA
+no.choice;4;male;4;220;4.84;Hispanic or Latino,Pacific Islander;Some College;NA;$81,000 to $100,000;no.choice;4;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;4;female;1;232;4.98;Asian;Doctorate;NA;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;4;female;2;232;4.98;Asian;Doctorate;NA;More than $200,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;4;female;3;232;4.98;Asian;Doctorate;NA;More than $200,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;4;female;1;232;4.98;Asian;Doctorate;NA;More than $200,000;no.choice;1;low;high;right;low;low;no;;no;;NA;NA;NA
+no.choice;4;female;2;232;4.98;Asian;Doctorate;NA;More than $200,000;no.choice;2;none;low;left;high;none;yes;;no;;11;worse;NA
+no.choice;4;female;3;232;4.98;Asian;Doctorate;NA;More than $200,000;no.choice;3;high;none;right;high;low;no;;no;;NA;NA;NA
+no.choice;4;female;4;232;4.98;Asian;Doctorate;NA;More than $200,000;no.choice;4;low;low;left;none;low;no;;no;;NA;NA;NA
+no.choice;5;male;1;221;5.01;Hispanic or Latino,Asian;Master's Degree;NA;$61,000 to 80,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;5;male;2;221;5.01;Hispanic or Latino,Asian;Master's Degree;NA;$61,000 to 80,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;5;male;3;221;5.01;Hispanic or Latino,Asian;Master's Degree;NA;$61,000 to 80,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;5;male;1;221;5.01;Hispanic or Latino,Asian;Master's Degree;NA;$61,000 to 80,000;no.choice;1;low;high;right;high;low;no;;no;;NA;NA;NA
+no.choice;5;male;2;221;5.01;Hispanic or Latino,Asian;Master's Degree;NA;$61,000 to 80,000;no.choice;2;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;5;male;3;221;5.01;Hispanic or Latino,Asian;Master's Degree;NA;$61,000 to 80,000;no.choice;3;none;none;right;none;none;yes;;no;;21;same;neutral
+no.choice;5;male;4;221;5.01;Hispanic or Latino,Asian;Master's Degree;NA;$61,000 to 80,000;no.choice;4;high;none;right;none;high;yes;;no;;3;better;positive
+no.choice;5;male;1;216;5.02;Asian,White,Other;Doctorate;NA;NA;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;5;male;2;216;5.02;Asian,White,Other;Doctorate;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;5;male;3;216;5.02;Asian,White,Other;Doctorate;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;5;male;1;216;5.02;Asian,White,Other;Doctorate;NA;NA;no.choice;1;none;high;right;high;none;yes;;no;;8;worse;neutral
+no.choice;5;male;2;216;5.02;Asian,White,Other;Doctorate;NA;NA;no.choice;2;none;none;left;none;none;yes;;no;;17;same;neutral
+no.choice;5;male;3;216;5.02;Asian,White,Other;Doctorate;NA;NA;no.choice;3;high;low;left;high;low;no;;no;;NA;NA;NA
+no.choice;5;male;4;216;5.02;Asian,White,Other;Doctorate;NA;NA;no.choice;4;low;none;right;none;low;no;;no;;NA;NA;NA
+no.choice;5;female;1;217;5.06;White;Bachelor's Degree;Bachelor's Degree;NA;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;5;female;2;217;5.06;White;Bachelor's Degree;Bachelor's Degree;NA;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;5;female;3;217;5.06;White;Bachelor's Degree;Bachelor's Degree;NA;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;5;female;1;217;5.06;White;Bachelor's Degree;Bachelor's Degree;NA;no.choice;1;low;high;right;high;low;no;;no;;NA;NA;NA
+no.choice;5;female;2;217;5.06;White;Bachelor's Degree;Bachelor's Degree;NA;no.choice;2;none;low;left;none;low;yes;;no;;5;better;NA
+no.choice;5;female;3;217;5.06;White;Bachelor's Degree;Bachelor's Degree;NA;no.choice;3;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;5;female;4;217;5.06;White;Bachelor's Degree;Bachelor's Degree;NA;no.choice;4;low;low;right;low;low;no;;no;;NA;NA;NA
+no.choice;5;male;1;243;5.16;White;Doctorate;Master's Degree;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;5;male;2;243;5.16;White;Doctorate;Master's Degree;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;5;male;3;243;5.16;White;Doctorate;Master's Degree;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;5;male;1;243;5.16;White;Doctorate;Master's Degree;More than $200,000;no.choice;1;low;high;left;low;high;yes;;yes;;4;better;neutral
+no.choice;5;male;2;243;5.16;White;Doctorate;Master's Degree;More than $200,000;no.choice;2;none;low;right;low;none;yes;;no;;5;worse;neutral
+no.choice;5;male;3;243;5.16;White;Doctorate;Master's Degree;More than $200,000;no.choice;3;none;none;right;none;none;yes;;no;;4;same;negative
+no.choice;5;male;4;243;5.16;White;Doctorate;Master's Degree;More than $200,000;no.choice;4;high;none;right;none;high;yes;;yes;;2;better;negative
+no.choice;5;female;1;212;5.4;Asian;Bachelor's Degree;Doctorate;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;5;female;2;212;5.4;Asian;Bachelor's Degree;Doctorate;More than $200,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;5;female;3;212;5.4;Asian;Bachelor's Degree;Doctorate;More than $200,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;5;female;1;212;5.4;Asian;Bachelor's Degree;Doctorate;More than $200,000;no.choice;1;low;high;left;low;high;no;;no;;NA;NA;NA
+no.choice;5;female;2;212;5.4;Asian;Bachelor's Degree;Doctorate;More than $200,000;no.choice;2;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;5;female;3;212;5.4;Asian;Bachelor's Degree;Doctorate;More than $200,000;no.choice;3;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;5;female;4;212;5.4;Asian;Bachelor's Degree;Doctorate;More than $200,000;no.choice;4;low;low;left;low;low;no;;no;;NA;NA;NA
+no.choice;5;male;1;230;5.54;Hispanic or Latino,Asian;Bachelor's Degree;Highschool Diploma;$81,000 to $100,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;worse;
+no.choice;5;male;2;230;5.54;Hispanic or Latino,Asian;Bachelor's Degree;Highschool Diploma;$81,000 to $100,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;
+no.choice;5;male;3;230;5.54;Hispanic or Latino,Asian;Bachelor's Degree;Highschool Diploma;$81,000 to $100,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;
+no.choice;5;male;1;230;5.54;Hispanic or Latino,Asian;Bachelor's Degree;Highschool Diploma;$81,000 to $100,000;no.choice;1;low;low;right;low;low;yes;;no;;11;same;neutral
+no.choice;5;male;2;230;5.54;Hispanic or Latino,Asian;Bachelor's Degree;Highschool Diploma;$81,000 to $100,000;no.choice;2;high;none;left;high;none;no;;no;;NA;NA;
+no.choice;5;male;3;230;5.54;Hispanic or Latino,Asian;Bachelor's Degree;Highschool Diploma;$81,000 to $100,000;no.choice;3;low;high;right;high;low;yes;;no;;12;worse;positive
+no.choice;5;male;4;230;5.54;Hispanic or Latino,Asian;Bachelor's Degree;Highschool Diploma;$81,000 to $100,000;no.choice;4;none;low;left;none;low;yes;;no;;2;better;negative
+no.choice;5;female;1;191;5.72;Hispanic or Latino;Some College;NA;$81,000 to $100,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;5;female;2;191;5.72;Hispanic or Latino;Some College;NA;$81,000 to $100,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;5;female;3;191;5.72;Hispanic or Latino;Some College;NA;$81,000 to $100,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;5;female;1;191;5.72;Hispanic or Latino;Some College;NA;$81,000 to $100,000;no.choice;1;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;5;female;2;191;5.72;Hispanic or Latino;Some College;NA;$81,000 to $100,000;no.choice;2;none;none;right;none;none;yes;;no;;11;same;neutral
+no.choice;5;female;3;191;5.72;Hispanic or Latino;Some College;NA;$81,000 to $100,000;no.choice;3;high;low;right;low;high;no;;no;;NA;NA;NA
+no.choice;5;female;4;191;5.72;Hispanic or Latino;Some College;NA;$81,000 to $100,000;no.choice;4;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;5;female;1;213;5.76;Hispanic or Latino,White;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;5;female;2;213;5.76;Hispanic or Latino,White;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;5;female;3;213;5.76;Hispanic or Latino,White;Bachelor's Degree;Bachelor's Degree;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;5;female;1;213;5.76;Hispanic or Latino,White;Bachelor's Degree;Bachelor's Degree;More than $200,000;no.choice;1;low;high;right;high;low;no;;no;;NA;NA;NA
+no.choice;5;female;2;213;5.76;Hispanic or Latino,White;Bachelor's Degree;Bachelor's Degree;More than $200,000;no.choice;2;none;low;left;none;low;no;;no;;NA;NA;NA
+no.choice;5;female;3;213;5.76;Hispanic or Latino,White;Bachelor's Degree;Bachelor's Degree;More than $200,000;no.choice;3;none;none;right;none;none;no;;no;;NA;NA;NA
+no.choice;5;female;4;213;5.76;Hispanic or Latino,White;Bachelor's Degree;Bachelor's Degree;More than $200,000;no.choice;4;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;5;female;1;170;5.78;Asian;Master's Degree;Some High School;More than $200,000;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;5;female;2;170;5.78;Asian;Master's Degree;Some High School;More than $200,000;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;5;female;3;170;5.78;Asian;Master's Degree;Some High School;More than $200,000;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;5;female;1;170;5.78;Asian;Master's Degree;Some High School;More than $200,000;no.choice;1;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;5;female;2;170;5.78;Asian;Master's Degree;Some High School;More than $200,000;no.choice;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;5;female;3;170;5.78;Asian;Master's Degree;Some High School;More than $200,000;no.choice;3;low;high;right;high;low;no;;no;;NA;NA;NA
+no.choice;5;female;4;170;5.78;Asian;Master's Degree;Some High School;More than $200,000;no.choice;4;high;high;left;high;high;no;;no;;NA;NA;NA
+no.choice;5;male;1;169;5.82;Asian (Indian);Master's Degree;Master's Degree;NA;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;5;male;2;169;5.82;Asian (Indian);Master's Degree;Master's Degree;NA;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;5;male;3;169;5.82;Asian  (Indian);Master's Degree;Master's Degree;NA;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;5;male;1;169;5.82;Asian  (Indian);Master's Degree;Master's Degree;NA;no.choice;1;high;low;left;high;low;no;;no;;NA;NA;NA
+no.choice;5;male;2;169;5.82;Asian  (Indian);Master's Degree;Master's Degree;NA;no.choice;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;5;male;3;169;5.82;Asian  (Indian);Master's Degree;Master's Degree;NA;no.choice;3;low;none;left;low;none;yes;;no;;2;worse;neutral
+no.choice;5;male;4;169;5.82;Asian  (Indian);Master's Degree;Master's Degree;NA;no.choice;4;high;high;right;high;high;yes;;no;;2;same;neutral
+no.choice;5;female;1;242;5.83;Asian;Doctorate;NA;NA;Fam_1;1;high;low;left;high;low;NA;;no;;NA;NA;NA
+no.choice;5;female;2;242;5.83;Asian;Doctorate;NA;NA;Fam_2;2;none;high;right;high;none;no;;no;;NA;NA;NA
+no.choice;5;female;3;242;5.83;Asian;Doctorate;NA;NA;Fam_2;3;low;none;left;low;none;no;;no;;NA;NA;NA
+no.choice;5;female;1;242;5.83;Asian;Doctorate;NA;NA;no.choice;1;none;high;left;none;high;yes;;no;;4;better;neutral
+no.choice;5;female;2;242;5.83;Asian;Doctorate;NA;NA;no.choice;2;none;none;right;none;none;yes;;no;;3;same;neutral
+no.choice;5;female;3;242;5.83;Asian;Doctorate;NA;NA;no.choice;3;high;low;right;low;high;yes;;no;;4;better;negative
+no.choice;5;female;4;242;5.83;Asian;Doctorate;NA;NA;no.choice;4;low;none;left;low;none;yes;;no;;3;worse;neutral
+no.choice;5;male;1;226;5.83;Asian;Doctorate;Doctorate;More than $200,000;Fam_1;1;low;high;right;high;low;NA;;no;;NA;NA;NA
+no.choice;5;male;2;226;5.83;Asian;Doctorate;Doctorate;More than $200,000;Fam_2;2;high;none;left;high;none;no;;no;;NA;NA;NA
+no.choice;5;male;3;226;5.83;Asian;Doctorate;Doctorate;More than $200,000;Fam_2;3;none;low;right;low;none;no;;no;;NA;NA;NA
+no.choice;5;male;1;226;5.83;Asian;Doctorate;Doctorate;More than $200,000;no.choice;1;low;low;left;low;low;yes;;yes;;3;same;NA
+no.choice;5;male;2;226;5.83;Asian;Doctorate;Doctorate;More than $200,000;no.choice;2;high;none;left;high;none;yes;;no;;6;worse;NA
+no.choice;5;male;3;226;5.83;Asian;Doctorate;Doctorate;More than $200,000;no.choice;3;low;high;left;low;high;yes;;no;;5;better;NA
+no.choice;5;male;4;226;5.83;Asian;Doctorate;Doctorate;More than $200,000;no.choice;4;none;low;left;none;low;yes;;no;;19;better;NA

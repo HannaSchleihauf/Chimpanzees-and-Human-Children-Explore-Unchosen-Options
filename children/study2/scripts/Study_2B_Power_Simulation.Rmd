@@ -1,0 +1,218 @@
+---
+title: "Study 2B (children) - Power simulation"
+date: "4/1/2021"
+---
+
+<!--
+Purpose:  A priori, simulation-based power analysis for Study 2B: power to
+          detect that peeking into the previously available box differs
+          from chance (50%), using an intercept-only model.
+Design:   48 children, 4 test trials each.
+Output:   ../R_objects/study_2_counterfactual_power_sim.RData
+Run from: This scripts/ folder (paths are relative to it).
+Note:     The simulation chunk has eval=FALSE; knitting uses the saved results.
+-->
+
+# 1. Setup
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list = ls(all.names = TRUE))
+library(tidyverse)
+library(cowplot)
+```
+
+# 2. Simulated design
+
+```{r design, echo=FALSE, include=FALSE}
+
+set.seed(1)
+n.subject <- 48 # Number of subjects
+n.per.subject <- 4 # Observations per subject
+n.per.condition <- 4 # Observations per subject and condition
+subj.id <- as.factor(paste("subj", 1:n.subject, sep = "."))
+control.per <- 1 / 2 # Chance level
+test.per <- c(0.65, 0.70) # Expected proportion of peeks into the available box
+
+start.data <- data.frame(subj.id)
+# Duplicate rows according to the number of observations per subject
+start.data <- start.data[rep(x = 1:nrow(start.data), times = n.per.subject), ]
+start.data <- as.data.frame(start.data)
+names(start.data) <- "subj.id"
+
+# Every subject x trial
+start.data <- data.frame(expand.grid(subj.id = subj.id, trial = c(1:n.per.condition)))
+
+# z-transform trial
+start.data$z.trial <- as.vector(scale(start.data$trial))
+
+# Check: does each subject have all trials?
+xx <- table(start.data$subj.id, start.data$trial)
+range(apply(X = xx > 0, MARGIN = 1, sum))
+
+```
+
+# 3. Simulation
+
+```{r simulation, eval=FALSE, include=FALSE}
+n.simus <- 1000 # Number of simulations (use a small number for testing)
+r.effects <- c(0.05) # Random intercept (SD) to be simulated
+# Possible sizes of the random intercept:
+#- 0.175: tiny random intercept
+#- 0.35: moderate random intercept
+#- 0.7: strong random intercept
+#- 1.4: very strong random intercept
+
+r.slope.trial <- 0.1 # Random slope of trial (SD)
+
+# Results table: one row per simulation and expected performance level
+all.res <- data.frame(expand.grid(
+  n.per.subject = n.per.subject, r.effect = r.effects,
+  r.slope.trial = r.slope.trial,
+  test.per = test.per,
+  simu = 1:n.simus
+))
+all.res$icpt <- NA
+all.res$icpt.p <- NA
+all.res$re.sd <- NA
+all.res$warns.full <- NA
+
+# Packages for model fitting
+library(lme4)
+library(kyotil) # keepWarnings(): stores convergence warnings
+
+# Optimizer settings that make convergence more likely
+contr <- glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 10000))
+
+xdata <- start.data
+
+m.mat <- model.matrix(object = ~z.trial, data = xdata) # Model matrix
+
+# Run the simulation
+for (i in 1:nrow(all.res)) {
+  set.seed(i) # Allows replicating individual simulations
+
+  # Fixed effects: intercept = expected performance (logit scale); no effect of trial
+  coefs <- c(
+    "(Intercept)" = log(all.res[i, "test.per"] / (1 - all.res[i, "test.per"])),
+    "z.trial" = 0
+  )
+
+  LP <- m.mat[, names(coefs)] %*% coefs # Linear predictor (fixed effects)
+
+  # Add random intercept and slope to the linear predictor
+  LP <- LP + rnorm(n = n.subject, sd = all.res[i, "r.effect"])[as.numeric(xdata$subj.id)] +
+    rnorm(n = n.subject, sd = all.res[i, "r.slope.trial"])[as.numeric(xdata$subj.id)] * xdata$z.trial
+
+  # Simulate the response (peeked into the available box yes/no)
+  xdata$correct <- rbinom(n = nrow(xdata), size = 1, prob = exp(LP) / (1 + exp(LP)))
+
+  # Fit the intercept-only model
+  full <- keepWarnings(glmer(correct ~ 1 + (1 + z.trial || subj.id),
+    data = xdata, family = binomial, control = contr
+  ))
+
+  # Store the results
+  all.res[i, c("icpt")] <- fixef(full$value)
+  all.res[i, "icpt.p"] <- summary(full$value)$coefficients["(Intercept)", "Pr(>|z|)"]
+  all.res[i, "re.sd"] <- as.data.frame(summary(full$value)$varcor)[1, "sdcor"]
+  all.res[i, "warns.full"] <- nchar(paste(full$warnings, collapse = ""))
+}
+
+save.image("../R_objects/study_2_counterfactual_power_sim.RData")
+load("../R_objects/study_2_counterfactual_power_sim.RData")
+```
+
+# 4. Evaluation
+
+## 4.1 Convergence warnings
+
+Number of simulations with warnings (out of 1000 per cell):
+
+```{r warnings, echo=FALSE}
+# Full model
+tapply(X=all.res[, "warns.full"]>0, INDEX=all.res[, c("r.effect")],
+FUN=sum)
+# Warning codes (number of characters of the warning message):
+# 363: unable to evaluate scaled gradient. Model failed to converge: degenerate  Hessian with 1 negative eigenvalues
+# 205: Model is nearly unidentifiable: large eigenvalue ratio - Rescale variables?
+```
+
+## 4.2 Power
+
+Only models that converged without warnings are evaluated. Power is the proportion of simulations with a significant intercept (p ≤ .05), pooled across both expected performance levels.
+
+```{r converged, include=FALSE}
+all.res2=subset(all.res, warns.full==0)
+```
+
+```{r power, echo=FALSE}
+
+icpt.p.data <- all.res2 %>%
+  summarise(mean.icpt.p = mean(icpt.p),
+            n.sign.icpt.p = length(icpt.p[icpt.p < 0.051]),
+            n.icpt.p = n.simus,#length(lrt.p.con),
+            pwr = mean(icpt.p <= 0.051))
+icpt.p.data
+```
+
+## 4.3 Plots
+
+NOTE: The power plot uses the column `proportion.sign.icpt.p`, which is not created above (the power column is `pwr`), and the last chunk loads a file from another project. These chunks will not run as they are.
+
+### Power
+
+```{r plot-power, echo=FALSE}
+
+p.icpt.prop <- ggplot(data = icpt.p.data, aes(y = proportion.sign.icpt.p)) +
+ # geom_point(aes(x = as.factor(r.effect), y = proportion.sign.icpt.p)) +
+  geom_boxplot(aes(x = as.factor(r.effect), y = proportion.sign.icpt.p, group = r.effect)) +
+  ylim(0.0, 1) +
+  geom_hline(yintercept = 0.8, colour = "black", lwd = 1.05, lty = 3) +
+  facet_wrap(~test.per) +
+  ylab("Power") +
+  xlab("Size of random intercept") +
+  theme_bw()
+p.icpt.prop
+
+```
+
+### Estimated intercepts
+
+```{r plot-intercepts, echo=FALSE}
+
+p.icpt.est <- ggplot(data = all.res2, aes(x = as.factor(r.effect), y = icpt)) +
+  geom_jitter(alpha = 0.2, col = "grey") +
+  geom_boxplot(aes(x = as.factor(r.effect), y = icpt, group = r.effect), alpha = 0.1, outlier.colour = "white") +
+  facet_wrap(~test.per) +
+  geom_hline(yintercept = 0, colour = "black", alpha = 0.5) +
+  geom_hline(data = data.frame(test.per = "0.65"), aes(yintercept = coefs["(Intercept)"]), colour = "red", lwd = 1.05, lty = 2, alpha = 0.7) +
+  geom_hline(data = data.frame(test.per = "0.55"), aes(yintercept = qlogis(0.55)), colour = "red", lwd = 1.05, lty = 2, alpha = 0.7) +
+  ylab("Intercept") +
+  xlab("Size of random intercept") +
+  theme_bw()
+
+p.int.exp1_3 <- plot_grid(p.icpt.prop, p.icpt.est, labels = c("a", "b"))
+
+ggsave(p.int.exp1_3, filename = "../../../figures/Power_simulation_Study_2B_intercept_only_model.png", scale = 0.45, height = 7, width = 16)
+```
+
+### Estimated random intercepts
+
+```{r plot-random-intercepts, echo=FALSE}
+ggplot(data = all.res2, aes(x=as.factor(r.effect), y=re.sd))+
+  geom_jitter( alpha=0.5, col="grey")+
+  geom_boxplot(aes(x=as.factor(r.effect), y=re.sd, group=r.effect), alpha=0.1, outlier.colour="white")+
+  facet_wrap(~test.per)
+
+```
+
+### Combine with the intercept-only plot of Exp4
+
+```{r combine-exp4}
+load("power_sim_disjsyll_1000iter_intercept_only_Exp4.RData")
+
+p.int.exp1_4 <- plot_grid(p.int.exp1_3, p.int.exp4, ncol=1)
+
+ggsave(p.int.exp1_4, filename = "intercept_only_models.png", scale = 0.45, height = 14, width = 16)
+```

@@ -4,11 +4,11 @@ date: "3/30/2021"
 ---
 
 <!--
-Purpose:  A priori, simulation-based power analysis for Study 1B, including
+Purpose:  Post hoc, simulation-based power analysis for Study 1B, including
           all three conditions (choice, no-choice, control).
 Design:   144 children (48 per condition, between-subject), 4 trials each.
 Output:   ../R_objects/counterfactual_power_sim.RData
-          (NOTE: this file is not included in the R_objects/ folder)
+          (rerun in R 4.5.1, November 2026)
 Run from: This scripts/ folder (paths are relative to it).
 -->
 

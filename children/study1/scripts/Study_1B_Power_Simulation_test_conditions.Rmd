@@ -4,12 +4,11 @@ date: "3/30/2021"
 ---
 
 <!--
-Purpose:  A priori, simulation-based power analysis for Study 1B, including
+Purpose:  Post hoc, simulation-based power analysis for Study 1B, including
           only the two test conditions (choice, no-choice).
-Design:   144 children (72 per condition, between-subject), 4 trials each.
+Design:   96 children (48 per condition, as tested; between-subject),
+          4 trials each. (An earlier version simulated 72 per condition.)
 Output:   ../R_objects/counterfactual_power_sim_test_only.RData
-          (NOTE: the save path in Section 6 is relative to the children/
-          folder, not to this scripts/ folder)
 Run from: This scripts/ folder (paths are relative to it).
 -->
 
@@ -30,7 +29,7 @@ library("kyotil") # keepWarnings(): stores convergence warnings
 
 # Simulation parameters
 set.seed(1)               # Set seed for reproducibility
-n.subject <- 144          # Number of subjects
+n.subject <- 96           # Number of subjects (48 per condition, as tested)
 n.per.subject <- 4        # Observations per subject
 n.condition <- 2          # Number of conditions
 min.age <- 2              # Minimum age
@@ -324,8 +323,8 @@ for (i in 1:nrow(all.res)) {
   print(i)
 }
 
-save.image("./study1/R_objects/counterfactual_power_sim_test_only.RData")
-load("./study1/R_objects/counterfactual_power_sim_test_only.RData")
+save.image("../R_objects/counterfactual_power_sim_test_only.RData")
+load("../R_objects/counterfactual_power_sim_test_only.RData")
 ```
 
 # 7. Evaluation

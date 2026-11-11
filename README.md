@@ -95,6 +95,7 @@ Study 2 – [chimpanzees](https://osf.io/3ngqt/?view_only=ffa94d71c6874dc697ec9c
     │   ├── functions/
     │   └── R_objects/
     │       ├── analysis_1B.RData
+    │       ├── counterfactual_power_sim.RData          # all three conditions
     │       └── counterfactual_power_sim_test_only.RData
     └── study2/                                         # STUDY 2B
         ├── data/
@@ -188,13 +189,13 @@ All scripts follow the same layout, so you can find the same step in every study
 
 ### Power simulations
 
-The `*_Power_Simulation*.Rmd` files contain the a priori, simulation-based power analyses reported in the manuscript and the supplementary material (section "Power Simulations"). They use paths relative to their own `scripts/` folder, so knit them from there. Their results are stored in the corresponding `R_objects/` folders.
+The `*_Power_Simulation*.Rmd` files contain the simulation-based power analyses reported in the manuscript and the supplementary material (section "Power Simulations"): a priori for the chimpanzee studies (1A, 2A) and post hoc, for the designs as conducted, for the children's studies (1B, 2B). They use paths relative to their own `scripts/` folder, so knit them from there. Their results are stored in the corresponding `R_objects/` folders.
 
 ---
 
 ## Software and package versions
 
-The final analyses (the `analysis_*.RData` workspaces) were run in **R 4.5.1** on macOS. The power simulations were run earlier, in R 4.3.3.
+The final analyses (the `analysis_*.RData` workspaces) were run in **R 4.5.1** on macOS. The Study 1A analysis (`analysis_1.RData`, Figure 2, Figure S1) was last rerun in November 2026 with lme4 2.1.0, starting from `set.seed(123)`; with this seed, the script reproduces all reported Study 1A values, including the bootstrapped confidence intervals. Because the parallel bootstrap seeds one random-number stream per worker, the confidence intervals are reproduced exactly only with the same number of workers (8 cores, i.e. 7 workers with the default `n.cores = "all-1"`); with a different number of cores they can differ in the third decimal. The power simulations were run earlier, in R 4.3.3, except the two Study 1B simulations (`counterfactual_power_sim.RData` with all three conditions and `counterfactual_power_sim_test_only.RData` with the two test conditions, 48 children per condition as tested), which were run in R 4.5.1 (lme4 2.1.0) in November 2026.
 
 | Package | Version | Used for |
 |---|---|---|
